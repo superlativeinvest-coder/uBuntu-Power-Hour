@@ -1,0 +1,8 @@
+docs/
+compare.html
+version-2.html
+assets/logo-*.png
+assets/logo-*.jpg
+.vscode/
+.idea/
+node_modules/

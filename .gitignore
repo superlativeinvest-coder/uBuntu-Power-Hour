@@ -1,0 +1,16 @@
+# Local/reference files that should not ship with the live Version 1 site
+docs/
+compare.html
+version-2.html
+
+# Unused working logo files
+assets/logo-*.png
+assets/logo-*.jpg
+
+# OS/editor/deploy noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vercel/
+node_modules/
