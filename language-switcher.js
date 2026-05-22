@@ -74,7 +74,7 @@
             ["Beyond the Surface™", "Building Real Connection in the Workplace", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
             ["Team Connection & Collaboration", "Rebuilding the Relational Fabric of Teams", "Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns."],
             ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."],
-            ["Different Generations. Different Worlds. One Team.™", "Bridging Global and Generational Differences at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."]
+            ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."]
           ]
         },
         {
