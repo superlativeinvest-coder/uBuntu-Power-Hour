@@ -51,7 +51,7 @@
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
         ["The Speak-Up Culture Shift™", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
         ["Many Worlds. One Workplace.™", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."],
-        ["The Cost of Holding It All Together", "A powerful conversation for women leaders and high achievers navigating perfectionism, pressure, and burnout."],
+        ["The Weight We Carry™", "Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed."],
         ["The Courageous Conversation Code™", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
         ["Resilience During Change", "Lead your team through uncertainty without losing trust, energy, or each other."],
         ["Team Connection & Collaboration", "Rebuild the relational fabric that makes teams actually work together."]
@@ -81,7 +81,7 @@
           title: "Wellness & Sustainable Leadership",
           cards: [
             ["Leading Without Burning Out", "Mental Fitness for EBRG Leaders and High Performers", "Support EBRG leaders and high achievers carrying emotional labor, over-responsibility, volunteer fatigue, and workplace pressure."],
-            ["The Cost of Holding It All Together", "", "A powerful conversation for women leaders and high performers navigating burnout, perfectionism, pressure, emotional labor, and the hidden weight of constantly “holding it together.”"],
+            ["The Weight We Carry™", "Emotional Labor, Burnout, and Sustainable Leadership", "Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed."],
             ["Boundaries Without Guilt", "Protecting Your Energy While Still Showing Up", "Help EBRG leaders and employees set healthier boundaries, manage expectations, and sustain their energy without feeling selfish, unavailable, or disconnected from their purpose."],
             ["Purpose Without Pressure", "Sustaining Advocacy, Leadership, and Service Without Losing Yourself", "Support EBRG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone."]
           ]
