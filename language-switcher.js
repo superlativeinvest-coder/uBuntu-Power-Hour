@@ -6,7 +6,7 @@
   const translations = {
     en: {
       title: "uBuntu Power Hour Experience",
-      description: "Interactive 60-minute Power Hour facilitation for ERGs, leadership teams, and global organizations. Facilitated in English, Spanish, and French.",
+      description: "Interactive 60-minute Power Hour facilitation for EBRGs, leadership teams, and global organizations. Facilitated in English, Spanish, and French.",
       navPower: "Power Hours",
       navTopics: "Topics",
       navAbout: "About",
@@ -18,7 +18,7 @@
       bookDiscovery: "Book a Discovery Call",
       problemLabel: "Sound Familiar?",
       problemHeadline: "Your People Are Showing Up, But Are They Really Connected?",
-      problem1: "ERG meetings are getting harder to plan, harder to fill, and harder to justify.",
+      problem1: "EBRG meetings are getting harder to plan, harder to fill, and harder to justify.",
       problem2: "Leaders are burned out. Employees are craving real connection. Teams are navigating generational tension, change fatigue, and the pressure to lead inclusively, without the tools to do it.",
       problem3: "Most organizations respond with another panel. Another presentation. Another hour where people sit, listen, and leave unchanged.",
       problem4: "Your people deserve better than that.",
@@ -39,13 +39,13 @@
       ubuntu1: "Ubuntu is an African philosophy that says our humanity is bound together. That we do not rise alone. That the strength of a team is inseparable from the belonging each person feels within it.",
       ubuntu2: "Hermence Matsotsa did not discover Ubuntu in a book. She was raised in it.",
       ubuntu3: "Born and shaped by lived global experience across cultures, languages, and continents, Hermence brings something most facilitators cannot: an embodied understanding of what it means to lead across difference, build connection in complexity, and create spaces where every voice belongs.",
-      ubuntu4: "She speaks three languages fluently: English, Spanish, and French. Not as a credential, but as a lived reality that makes her uniquely equipped to serve multinational teams, global ERGs, and organizations where the workforce itself reflects the world.",
+      ubuntu4: "She speaks three languages fluently: English, Spanish, and French. Not as a credential, but as a lived reality that makes her uniquely equipped to serve multinational teams, global EBRGs, and organizations where the workforce itself reflects the world.",
       ubuntu5: "This is human-centered leadership development rooted in UBUNTU, designed to help people connect across differences, communicate with intention, and work together to solve the challenges that impact culture, performance, and trust.",
       topicsLabel: "Power Hour Topics",
       topicsHeadline: "Every Session. Designed to Move People.",
       topicsSub: "Choose one. Or let Hermence recommend the right fit for your team.",
       topics: [
-        ["Leading Without Burning Out", "Mental fitness for ERG leaders carrying emotional labor, over-responsibility, and volunteer fatigue."],
+        ["Leading Without Burning Out", "Mental fitness for EBRG leaders carrying emotional labor, over-responsibility, and volunteer fatigue."],
         ["Beyond Surface Conversations", "Create meaningful employee connection through belonging, psychological safety, and human-centered leadership."],
         ["Psychological Safety During Change", "Support leaders and employees through uncertainty, tension, trust gaps, and pressure with executive-friendly language."],
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
@@ -80,14 +80,14 @@
         {
           title: "Wellness & Sustainable Leadership",
           cards: [
-            ["Leading Without Burning Out", "Mental Fitness for ERG Leaders and High Performers", "Support ERG leaders and high achievers carrying emotional labor, over-responsibility, volunteer fatigue, and workplace pressure."],
+            ["Leading Without Burning Out", "Mental Fitness for EBRG Leaders and High Performers", "Support EBRG leaders and high achievers carrying emotional labor, over-responsibility, volunteer fatigue, and workplace pressure."],
             ["The Cost of Holding It All Together", "", "A powerful conversation for women leaders and high performers navigating burnout, perfectionism, pressure, emotional labor, and the hidden weight of constantly “holding it together.”"],
-            ["Boundaries Without Guilt", "Protecting Your Energy While Still Showing Up", "Help ERG leaders and employees set healthier boundaries, manage expectations, and sustain their energy without feeling selfish, unavailable, or disconnected from their purpose."],
-            ["Purpose Without Pressure", "Sustaining Advocacy, Leadership, and Service Without Losing Yourself", "Support ERG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone."]
+            ["Boundaries Without Guilt", "Protecting Your Energy While Still Showing Up", "Help EBRG leaders and employees set healthier boundaries, manage expectations, and sustain their energy without feeling selfish, unavailable, or disconnected from their purpose."],
+            ["Purpose Without Pressure", "Sustaining Advocacy, Leadership, and Service Without Losing Yourself", "Support EBRG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone."]
           ]
         }
       ],
-      customSessionTitle: "Don’t see exactly what your ERG, team, or organization needs?",
+      customSessionTitle: "Don’t see exactly what your EBRG, team, or organization needs?",
       customSessionText: "Every uBuntu Power Hour Experience can be customized to reflect your audience, workplace culture, current challenges, and desired outcomes.",
       customSessionCta: "Let’s Customize Your Session",
       formatsLabel: "Formats",
@@ -95,7 +95,7 @@
       formatsIntro: "Power Hours are designed to fit the way your organization already works.",
       formats: [
         ["Lunch & Learn", "A midday reset that actually refuels your people."],
-        ["ERG Engagement Session", "Your heritage month or leadership event, elevated."],
+        ["EBRG Engagement Session", "Your heritage month or leadership event, elevated."],
         ["Leadership Development Hour", "Practical tools your managers use the next morning."],
         ["Conference Breakout Session", "The session people are still talking about on the flight home."],
         ["Women's Leadership Conversation", "A space built specifically for women navigating the complexity of leading."],
@@ -105,27 +105,27 @@
       audienceLabel: "Is This for You?",
       audienceHeadline: "Designed for the People Who Build Culture.",
       audience: [
-        ["ERG Chairs & Co-Chairs", "You're a volunteer leader running an ERG on top of a full-time job. You need programming that is easy to book, guaranteed to land, and powerful enough to make your members come back next time. Power Hours handle the content, the facilitation, and the energy, so you don't have to."],
+        ["EBRG Chairs & Co-Chairs", "You're a volunteer leader running an EBRG on top of a full-time job. You need programming that is easy to book, guaranteed to land, and powerful enough to make your members come back next time. Power Hours handle the content, the facilitation, and the energy, so you don't have to."],
         ["CHROs & Chief People Officers", "You're navigating a workforce that is burned out, politically charged, and craving connection. You need programming that works under scrutiny: language that is universal, outcomes that are measurable, and facilitation that is sophisticated enough to put in front of your executives. Power Hours deliver belonging outcomes without the political friction."],
         ["L&D & Talent Development Directors", "You need more than a one-off event. You need development experiences that build skills, shift behavior, and connect to your leadership pipeline. Power Hours can be deployed as standalone sessions or structured into a 6 to 12 session annual series, integrated directly into your existing leadership curriculum."]
       ],
       testimonialLabel: "What People Are Saying",
       testimonialHeadline: "The Room Was Never the Same After.",
       testimonials: [
-        ["\"I've sat through hundreds of ERG sessions. Hermence's Power Hour was the first one where people actually talked to each other, not at each other. Our ERG members are still referencing the conversation three months later.\"", "Marcus T. Reid, ERG Chair, Financial Services"],
+        ["\"I've sat through hundreds of EBRG sessions. Hermence's Power Hour was the first one where people actually talked to each other, not at each other. Our EBRG members are still referencing the conversation three months later.\"", "Marcus T. Reid, EBRG Chair, Financial Services"],
         ["\"We brought Hermence in for our Women's Leadership session and honestly did not know what to expect. What happened in that room was extraordinary. She created psychological safety in the first five minutes. People shared things they had never said out loud at work. Our executive sponsor called it the best 60 minutes we had invested in our people all year.\"", "Danielle Osei, Chief People Officer, Healthcare"],
         ["\"We run a global team across four countries and three languages. Hermence facilitated in both English and French, seamlessly, and made every single person feel like the session was designed for them. We booked three more sessions before the first one was over.\"", "James Whitfield, VP Talent Development, Professional Services"],
         ["\"The Power Hour format is unlike anything else on the market. Hermence does not talk at your people; she guides them into talking to each other. The energy, the safety, the depth of conversation: it is not something you can manufacture. It is something she brings.\"", "Priya Nambiar, HR Business Partner, Technology"]
       ],
       investmentLabel: "Investment",
       investmentHeadline: "Choose the Power Hour That Meets Your Moment",
-      investment2: "For ERGs, leaders, and organizations ready to turn meaningful conversations into stronger connection, deeper trust, and real workplace impact, three Power Hour options are available.",
+      investment2: "For EBRGs, leaders, and organizations ready to turn meaningful conversations into stronger connection, deeper trust, and real workplace impact, three Power Hour options are available.",
       prices: [
-        ["The Single Power Hour", "One 60-minute facilitated experience for your ERG, leadership team, or organization. Fully customized to your context and goals.", "Starting at $5,000."],
+        ["The Single Power Hour", "One 60-minute facilitated experience for your EBRG, leadership team, or organization. Fully customized to your context and goals.", "Starting at $5,000."],
         ["The 3-Pack Bundle", "Three Power Hours designed as a connected series, ideal for heritage month programming, leadership cohorts, or quarterly team development.", "Starting at $13,500."],
-        ["The Annual ERG Retainer", "Six Power Hours across your calendar year, plus quarterly planning calls and branded session recaps. The most impactful and most cost-effective way to build belonging at scale.", "Starting at $25,000."]
+        ["The Annual EBRG Retainer", "Six Power Hours across your calendar year, plus quarterly planning calls and branded session recaps. The most impactful and most cost-effective way to build belonging at scale.", "Starting at $25,000."]
       ],
-      note: "All sessions available virtually or in person. Multi-ERG enterprise packages available for organizations with multiple resource groups. Inquire for details.",
+      note: "All sessions available virtually or in person. Multi-EBRG enterprise packages available for organizations with multiple resource groups. Inquire for details.",
       fitCta: "Book a Discovery Call to Discuss the Right Fit",
       aboutLabel: "Meet Your Facilitator",
       aboutHeadline: "Hermence Matsotsa",
@@ -134,7 +134,7 @@
       about2: "She did not learn inclusion from a certification program or a consulting framework. She learned it from living across cultures, across languages, across experiences that most people only read about in case studies.",
       about3: "With more than two decades of experience working with high-performing professionals and leaders across cultures, industries, and languages, Hermence creates human-centered spaces where people feel safe enough to speak, lead, and solve real workplace challenges together.",
       about4: "Hermence brings the philosophy of Ubuntu, \"I am because we are,\" not as a borrowed concept but as a lived inheritance. It is the lens through which she leads, facilitates, and builds spaces where people feel safe enough to be real.",
-      about5: "Through the uBuntu Power Hour Experience, she has helped ERG leaders, executive teams, and organizations across industries create the kinds of conversations that change how people show up at work and beyond.",
+      about5: "Through the uBuntu Power Hour Experience, she has helped EBRG leaders, executive teams, and organizations across industries create the kinds of conversations that change how people show up at work and beyond.",
       about6: "She facilitates fluently in English, Spanish, and French, making her one of the few facilitators in the world equipped to serve truly global teams without losing depth, nuance, or connection in translation.",
       about7: "When the room needs to change, Hermence is who you call.",
       aboutCta: "Schedule a Conversation with Hermence",
@@ -142,7 +142,7 @@
       final1: "Its worth a 30-minute conversation.",
       final2: "No pressure. No pitch deck. Just an honest conversation about where your team is, what your people need, and whether a Power Hour is the right fit.",
       final3: "Available in English · Spanish · French",
-      final4: "Virtual and In-Person · ERGs · Leadership Teams · Global Organizations",
+      final4: "Virtual and In-Person · EBRGs · Leadership Teams · Global Organizations",
       finalCta: "Book Your Discovery Call Now",
       footerTitle: "uBuntu Power Hour Experience",
       footerBy: "Facilitated by Hermence Matsotsa",
@@ -151,19 +151,19 @@
     },
     es: {
       title: "uBuntu Power Hour Experience",
-      description: "Facilitación interactiva de 60 minutos para ERG, equipos de liderazgo y organizaciones globales. Facilitada en inglés, español y francés.",
+      description: "Facilitación interactiva de 60 minutos para EBRG, equipos de liderazgo y organizaciones globales. Facilitada en inglés, español y francés.",
       navPower: "Power Hours",
       navTopics: "Temas",
       navAbout: "Acerca de",
       navBook: "Reservar llamada",
       heroEyebrow: "uBuntu Power Hour Experience",
-      heroHeadline: "Tu ERG merece más que otra reunión.",
-      heroSubhead: "La uBuntu Power Hour Experience convierte tu próxima reunión de ERG en un espacio donde las personas se sienten vistas, escuchadas y renovadas para liderar en 60 minutos.",
+      heroHeadline: "Tu EBRG merece más que otra reunión.",
+      heroSubhead: "La uBuntu Power Hour Experience convierte tu próxima reunión de EBRG en un espacio donde las personas se sienten vistas, escuchadas y renovadas para liderar en 60 minutos.",
       heroSupport: "Facilitado en inglés · español · francés para equipos que piensan globalmente.",
       bookDiscovery: "Reservar una llamada de descubrimiento",
       problemLabel: "¿Te suena familiar?",
       problemHeadline: "Tu gente se presenta, pero ¿realmente está conectada?",
-      problem1: "Las reuniones de ERG son cada vez más difíciles de planificar, llenar y justificar.",
+      problem1: "Las reuniones de EBRG son cada vez más difíciles de planificar, llenar y justificar.",
       problem2: "Los líderes están agotados. Los empleados anhelan conexión real. Los equipos navegan tensión generacional, fatiga por el cambio y la presión de liderar con inclusión, sin las herramientas para hacerlo.",
       problem3: "La mayoría de las organizaciones responde con otro panel. Otra presentación. Otra hora en la que las personas se sientan, escuchan y se van sin cambiar.",
       problem4: "Tu gente merece algo mejor.",
@@ -184,13 +184,13 @@
       ubuntu1: "Ubuntu es una filosofía africana que afirma que nuestra humanidad está unida. Que no crecemos solos. Que la fuerza de un equipo es inseparable del sentido de pertenencia que cada persona siente dentro de él.",
       ubuntu2: "Hermence Matsotsa no descubrió Ubuntu en un libro. Creció en él.",
       ubuntu3: "Nacida y formada por una experiencia global vivida entre culturas, idiomas y continentes, Hermence aporta algo que la mayoría de facilitadores no puede: una comprensión encarnada de lo que significa liderar a través de la diferencia, construir conexión en la complejidad y crear espacios donde cada voz pertenece.",
-      ubuntu4: "Habla tres idiomas con fluidez: inglés, español y francés. No como una credencial, sino como una realidad vivida que la hace especialmente preparada para servir a equipos multinacionales, ERG globales y organizaciones cuya fuerza laboral refleja el mundo.",
+      ubuntu4: "Habla tres idiomas con fluidez: inglés, español y francés. No como una credencial, sino como una realidad vivida que la hace especialmente preparada para servir a equipos multinacionales, EBRG globales y organizaciones cuya fuerza laboral refleja el mundo.",
       ubuntu5: "Es desarrollo de liderazgo centrado en lo humano y arraigado en UBUNTU, diseñado para ayudar a las personas a conectar a través de las diferencias, comunicarse con intención y trabajar juntas para resolver los desafíos que impactan la cultura, el desempeño y la confianza.",
       topicsLabel: "Temas de Power Hour",
       topicsHeadline: "Cada sesión. Diseñada para mover a las personas.",
       topicsSub: "Elige una. O deja que Hermence recomiende la opción adecuada para tu equipo.",
       topics: [
-        ["Liderar sin quemarse", "Mentalidad y bienestar para líderes de ERG que cargan trabajo emocional, exceso de responsabilidad y fatiga voluntaria."],
+        ["Liderar sin quemarse", "Mentalidad y bienestar para líderes de EBRG que cargan trabajo emocional, exceso de responsabilidad y fatiga voluntaria."],
         ["Más allá de conversaciones superficiales", "Crear conexión significativa entre empleados mediante pertenencia, seguridad psicológica y liderazgo centrado en lo humano."],
         ["Seguridad psicológica durante el cambio", "Apoyar a líderes y empleados durante incertidumbre, tensión, brechas de confianza y presión con lenguaje apto para ejecutivos."],
         ["Tender puentes entre generaciones", "Reducir suposiciones y mejorar la colaboración entre estilos de comunicación, normas de retroalimentación y expectativas de liderazgo."],
@@ -225,14 +225,14 @@
         {
           title: "Bienestar y liderazgo sostenible",
           cards: [
-            ["Liderar sin quemarse", "Mental fitness para lideres de ERG y personas de alto rendimiento", "Apoya a lideres de ERG y personas de alto rendimiento que cargan trabajo emocional, exceso de responsabilidad, fatiga voluntaria y presion laboral."],
+            ["Liderar sin quemarse", "Mental fitness para lideres de EBRG y personas de alto rendimiento", "Apoya a lideres de EBRG y personas de alto rendimiento que cargan trabajo emocional, exceso de responsabilidad, fatiga voluntaria y presion laboral."],
             ["El costo de sostenerlo todo", "", "Una conversacion poderosa para mujeres lideres y personas de alto rendimiento que navegan agotamiento, perfeccionismo, presion, trabajo emocional y el peso oculto de tener que sostenerlo todo."],
-            ["Limites sin culpa", "Proteger tu energia mientras sigues presente", "Ayuda a lideres de ERG y empleados a establecer limites mas saludables, gestionar expectativas y sostener su energia sin sentirse egoistas, no disponibles o desconectados de su proposito."],
-            ["Proposito sin presion", "Sostener la defensa, el liderazgo y el servicio sin perderte a ti mismo", "Apoya a lideres de ERG y profesionales impulsados por una mision a reconectar con su proposito mientras sueltan la presion de cargarlo todo, arreglarlo todo o ser todo para todos."]
+            ["Limites sin culpa", "Proteger tu energia mientras sigues presente", "Ayuda a lideres de EBRG y empleados a establecer limites mas saludables, gestionar expectativas y sostener su energia sin sentirse egoistas, no disponibles o desconectados de su proposito."],
+            ["Proposito sin presion", "Sostener la defensa, el liderazgo y el servicio sin perderte a ti mismo", "Apoya a lideres de EBRG y profesionales impulsados por una mision a reconectar con su proposito mientras sueltan la presion de cargarlo todo, arreglarlo todo o ser todo para todos."]
           ]
         }
       ],
-      customSessionTitle: "¿No ves exactamente lo que necesita tu ERG, equipo u organización?",
+      customSessionTitle: "¿No ves exactamente lo que necesita tu EBRG, equipo u organización?",
       customSessionText: "Cada uBuntu Power Hour Experience puede personalizarse para reflejar tu audiencia, cultura laboral, desafíos actuales y resultados deseados.",
       customSessionCta: "Personalicemos tu sesión",
       formatsLabel: "Formatos",
@@ -240,7 +240,7 @@
       formatsIntro: "Las Power Hours están diseñadas para encajar con la forma en que tu organización ya trabaja.",
       formats: [
         ["Lunch & Learn", "Un reinicio de mediodía que realmente recarga a tu gente."],
-        ["Sesión de participación ERG", "Tu mes conmemorativo o evento de liderazgo, elevado."],
+        ["Sesión de participación EBRG", "Tu mes conmemorativo o evento de liderazgo, elevado."],
         ["Hora de desarrollo de liderazgo", "Herramientas prácticas que tus managers usan al día siguiente."],
         ["Sesión de conferencia", "La sesión de la que la gente sigue hablando en el vuelo de regreso."],
         ["Conversación de liderazgo para mujeres", "Un espacio diseñado específicamente para mujeres que navegan la complejidad de liderar."],
@@ -250,27 +250,27 @@
       audienceLabel: "¿Es para ti?",
       audienceHeadline: "Creado para quienes construyen cultura.",
       audience: [
-        ["Líderes y co-líderes de ERG", "Eres una persona voluntaria liderando un ERG además de tu trabajo principal. Necesitas programación fácil de reservar, con impacto asegurado y lo suficientemente poderosa para que tus miembros quieran volver. Las Power Hours manejan el contenido, la facilitación y la energía, para que tú no tengas que hacerlo."],
+        ["Líderes y co-líderes de EBRG", "Eres una persona voluntaria liderando un EBRG además de tu trabajo principal. Necesitas programación fácil de reservar, con impacto asegurado y lo suficientemente poderosa para que tus miembros quieran volver. Las Power Hours manejan el contenido, la facilitación y la energía, para que tú no tengas que hacerlo."],
         ["CHROs y Chief People Officers", "Navegas una fuerza laboral agotada, cargada de tensión y con hambre de conexión. Necesitas programación que funcione bajo escrutinio: lenguaje universal, resultados medibles y facilitación lo suficientemente sofisticada para tus ejecutivos. Las Power Hours generan resultados de pertenencia sin fricción política."],
         ["Directores de L&D y desarrollo de talento", "Necesitas más que un evento aislado. Necesitas experiencias de desarrollo que construyan habilidades, cambien comportamientos y conecten con tu pipeline de liderazgo. Las Power Hours pueden implementarse como sesiones individuales o como una serie anual de 6 a 12 sesiones integrada en tu currículo de liderazgo."]
       ],
       testimonialLabel: "Lo que dice la gente",
       testimonialHeadline: "La sala nunca volvió a ser la misma.",
       testimonials: [
-        ["\"He asistido a cientos de sesiones de ERG. La Power Hour de Hermence fue la primera donde las personas realmente hablaron entre sí, no unas a otras. Nuestros miembros del ERG siguen citando la conversación tres meses después.\"", "Marcus T. Reid, ERG Chair, Financial Services"],
+        ["\"He asistido a cientos de sesiones de EBRG. La Power Hour de Hermence fue la primera donde las personas realmente hablaron entre sí, no unas a otras. Nuestros miembros del EBRG siguen citando la conversación tres meses después.\"", "Marcus T. Reid, EBRG Chair, Financial Services"],
         ["\"Invitamos a Hermence para nuestra sesión de liderazgo femenino y sinceramente no sabíamos qué esperar. Lo que ocurrió en esa sala fue extraordinario. Creó seguridad psicológica en los primeros cinco minutos. Personas compartieron cosas que nunca habían dicho en voz alta en el trabajo. Nuestro sponsor ejecutivo dijo que fueron los mejores 60 minutos invertidos en nuestra gente en todo el año.\"", "Danielle Osei, Chief People Officer, Healthcare"],
         ["\"Dirigimos un equipo global en cuatro países y tres idiomas. Hermence facilitó en inglés y francés, de manera fluida, e hizo que cada persona sintiera que la sesión fue diseñada para ella. Reservamos tres sesiones más antes de que terminara la primera.\"", "James Whitfield, VP Talent Development, Professional Services"],
         ["\"El formato Power Hour no se parece a nada en el mercado. Hermence no habla a tu gente; la guía para que hable entre sí. La energía, la seguridad, la profundidad de la conversación: no es algo que se pueda fabricar. Es algo que ella trae.\"", "Priya Nambiar, HR Business Partner, Technology"]
       ],
       investmentLabel: "Inversión",
       investmentHeadline: "Elige la Power Hour que responde a tu momento",
-      investment2: "Para ERGs, líderes y organizaciones listas para convertir conversaciones significativas en una conexión más fuerte, una confianza más profunda y un impacto real en el lugar de trabajo, hay tres opciones de Power Hour disponibles.",
+      investment2: "Para EBRGs, líderes y organizaciones listas para convertir conversaciones significativas en una conexión más fuerte, una confianza más profunda y un impacto real en el lugar de trabajo, hay tres opciones de Power Hour disponibles.",
       prices: [
-        ["La Power Hour individual", "Una experiencia facilitada de 60 minutos para tu ERG, equipo de liderazgo u organización. Totalmente personalizada a tu contexto y objetivos.", "Desde $5,000."],
+        ["La Power Hour individual", "Una experiencia facilitada de 60 minutos para tu EBRG, equipo de liderazgo u organización. Totalmente personalizada a tu contexto y objetivos.", "Desde $5,000."],
         ["El paquete de 3 sesiones", "Tres Power Hours diseñadas como una serie conectada, ideal para programación de meses conmemorativos, cohortes de liderazgo o desarrollo trimestral de equipos.", "Desde $13,500."],
-        ["El retainer anual para ERG", "Seis Power Hours durante tu año calendario, más llamadas trimestrales de planificación y recaps de sesión con marca. La forma más impactante y costo-efectiva de construir pertenencia a escala.", "Desde $25,000."]
+        ["El retainer anual para EBRG", "Seis Power Hours durante tu año calendario, más llamadas trimestrales de planificación y recaps de sesión con marca. La forma más impactante y costo-efectiva de construir pertenencia a escala.", "Desde $25,000."]
       ],
-      note: "Todas las sesiones están disponibles virtualmente o en persona. Paquetes empresariales multi-ERG disponibles para organizaciones con varios grupos de recursos. Consulta para más detalles.",
+      note: "Todas las sesiones están disponibles virtualmente o en persona. Paquetes empresariales Multi-EBRG disponibles para organizaciones con varios grupos de recursos. Consulta para más detalles.",
       fitCta: "Reservar una llamada para hablar de la mejor opción",
       aboutLabel: "Conoce a tu facilitadora",
       aboutHeadline: "Hermence Matsotsa",
@@ -279,7 +279,7 @@
       about2: "No aprendió inclusión en un programa de certificación ni en un marco de consultoría. La aprendió viviendo entre culturas, idiomas y experiencias que muchas personas solo leen en casos de estudio.",
       about3: "Con más de dos décadas de experiencia trabajando con profesionales y líderes de alto rendimiento en distintas culturas, industrias e idiomas, Hermence crea espacios humanos donde las personas se sienten lo bastante seguras para hablar, liderar y resolver juntas desafíos reales del lugar de trabajo.",
       about4: "Hermence trae la filosofía de Ubuntu, \"soy porque somos,\" no como un concepto prestado sino como una herencia vivida. Es la lente desde la cual lidera, facilita y crea espacios donde las personas se sienten lo bastante seguras para ser reales.",
-      about5: "A través de la uBuntu Power Hour Experience, ha ayudado a líderes de ERG, equipos ejecutivos y organizaciones de distintas industrias a crear conversaciones que cambian cómo las personas se presentan en el trabajo y más allá.",
+      about5: "A través de la uBuntu Power Hour Experience, ha ayudado a líderes de EBRG, equipos ejecutivos y organizaciones de distintas industrias a crear conversaciones que cambian cómo las personas se presentan en el trabajo y más allá.",
       about6: "Facilita con fluidez en inglés, español y francés, lo que la convierte en una de las pocas facilitadoras en el mundo preparadas para servir a equipos verdaderamente globales sin perder profundidad, matiz ni conexión en la traducción.",
       about7: "Cuando la sala necesita cambiar, Hermence es a quien llamas.",
       aboutCta: "Programar una conversación con Hermence",
@@ -287,7 +287,7 @@
       final1: "Vale una conversación de 30 minutos.",
       final2: "Sin presión. Sin pitch deck. Solo una conversación honesta sobre dónde está tu equipo, qué necesita tu gente y si una Power Hour es la opción adecuada.",
       final3: "Disponible en inglés · español · francés",
-      final4: "Virtual y presencial · ERGs · Equipos de liderazgo · Organizaciones globales",
+      final4: "Virtual y presencial · EBRGs · Equipos de liderazgo · Organizaciones globales",
       finalCta: "Reservar tu llamada de descubrimiento ahora",
       footerTitle: "uBuntu Power Hour Experience",
       footerBy: "Facilitadas por Hermence Matsotsa",
@@ -296,19 +296,19 @@
     },
     fr: {
       title: "uBuntu Power Hour Experience",
-      description: "Facilitation interactive de 60 minutes pour ERG, équipes de direction et organisations mondiales. Facilitée en anglais, espagnol et français.",
+      description: "Facilitation interactive de 60 minutes pour EBRG, équipes de direction et organisations mondiales. Facilitée en anglais, espagnol et français.",
       navPower: "Power Hours",
       navTopics: "Sujets",
       navAbout: "À propos",
       navBook: "Réserver un appel",
       heroEyebrow: "uBuntu Power Hour Experience",
-      heroHeadline: "Votre ERG mérite plus qu'une réunion de plus.",
-      heroSubhead: "La uBuntu Power Hour Experience transforme votre prochaine rencontre ERG en un espace où les personnes se sentent vues, entendues et réénergisées pour diriger en 60 minutes.",
+      heroHeadline: "Votre EBRG mérite plus qu'une réunion de plus.",
+      heroSubhead: "La uBuntu Power Hour Experience transforme votre prochaine rencontre EBRG en un espace où les personnes se sentent vues, entendues et réénergisées pour diriger en 60 minutes.",
       heroSupport: "Facilité en anglais · espagnol · français pour les équipes qui pensent globalement.",
       bookDiscovery: "Réserver un appel découverte",
       problemLabel: "Cela vous parle ?",
       problemHeadline: "Vos collaborateurs sont présents, mais sont-ils vraiment connectés ?",
-      problem1: "Les réunions ERG deviennent plus difficiles à planifier, à remplir et à justifier.",
+      problem1: "Les réunions EBRG deviennent plus difficiles à planifier, à remplir et à justifier.",
       problem2: "Les leaders sont épuisés. Les employés recherchent une vraie connexion. Les équipes naviguent des tensions générationnelles, la fatigue du changement et la pression de diriger de manière inclusive, sans les outils nécessaires.",
       problem3: "La plupart des organisations répondent avec un autre panel. Une autre présentation. Une autre heure où les personnes s'assoient, écoutent et repartent inchangées.",
       problem4: "Vos collaborateurs méritent mieux.",
@@ -329,13 +329,13 @@
       ubuntu1: "Ubuntu est une philosophie africaine qui affirme que notre humanité est liée. Que nous ne nous élevons pas seuls. Que la force d'une équipe est inséparable du sentiment d'appartenance que chaque personne ressent en son sein.",
       ubuntu2: "Hermence Matsotsa n'a pas découvert Ubuntu dans un livre. Elle a grandi avec cette philosophie.",
       ubuntu3: "Née et façonnée par une expérience mondiale vécue à travers les cultures, les langues et les continents, Hermence apporte quelque chose que la plupart des facilitateurs ne peuvent pas offrir: une compréhension incarnée de ce que signifie diriger à travers la différence, créer du lien dans la complexité et ouvrir des espaces où chaque voix a sa place.",
-      ubuntu4: "Elle parle couramment trois langues: anglais, espagnol et français. Non comme une simple compétence, mais comme une réalité vécue qui la rend particulièrement équipée pour servir des équipes multinationales, des ERG mondiaux et des organisations dont la main-d'oeuvre reflète le monde.",
+      ubuntu4: "Elle parle couramment trois langues: anglais, espagnol et français. Non comme une simple compétence, mais comme une réalité vécue qui la rend particulièrement équipée pour servir des équipes multinationales, des EBRG mondiaux et des organisations dont la main-d'oeuvre reflète le monde.",
       ubuntu5: "C'est du développement du leadership centré sur l'humain et enraciné dans UBUNTU, conçu pour aider les personnes à créer du lien à travers les différences, communiquer avec intention et travailler ensemble pour résoudre les défis qui influencent la culture, la performance et la confiance.",
       topicsLabel: "Sujets Power Hour",
       topicsHeadline: "Chaque session. Conçue pour faire bouger les personnes.",
       topicsSub: "Choisissez un sujet. Ou laissez Hermence recommander le bon choix pour votre équipe.",
       topics: [
-        ["Diriger sans s'épuiser", "Fitness mental pour responsables ERG portant du travail émotionnel, une responsabilité excessive et de la fatigue bénévole."],
+        ["Diriger sans s'épuiser", "Fitness mental pour responsables EBRG portant du travail émotionnel, une responsabilité excessive et de la fatigue bénévole."],
         ["Au-delà des conversations de surface", "Créer une connexion significative entre employés grâce à l'appartenance, la sécurité psychologique et le leadership centré sur l'humain."],
         ["Sécurité psychologique en période de changement", "Soutenir leaders et employés face à l'incertitude, aux tensions, aux ruptures de confiance et à la pression avec un langage adapté aux dirigeants."],
         ["Combler les différences générationnelles", "Réduire les suppositions et améliorer la collaboration entre styles de communication, normes de feedback et attentes de leadership."],
@@ -370,14 +370,14 @@
         {
           title: "Bien-etre et leadership durable",
           cards: [
-            ["Diriger sans s'epuiser", "Fitness mental pour responsables ERG et personnes tres performantes", "Soutenez les responsables ERG et les personnes tres performantes qui portent du travail emotionnel, une responsabilite excessive, de la fatigue benevole et de la pression au travail."],
+            ["Diriger sans s'epuiser", "Fitness mental pour responsables EBRG et personnes tres performantes", "Soutenez les responsables EBRG et les personnes tres performantes qui portent du travail emotionnel, une responsabilite excessive, de la fatigue benevole et de la pression au travail."],
             ["Le cout de tout porter", "", "Une conversation puissante pour les femmes leaders et les personnes tres performantes qui naviguent epuisement, perfectionnisme, pression, travail emotionnel et le poids cache de devoir tout porter."],
-            ["Des limites sans culpabilite", "Proteger votre energie tout en restant present", "Aidez les responsables ERG et les employes a etablir des limites plus saines, gerer les attentes et preserver leur energie sans se sentir egoistes, indisponibles ou deconnectes de leur raison d'etre."],
-            ["Un objectif sans pression", "Soutenir l'engagement, le leadership et le service sans vous perdre", "Soutenez les responsables ERG et les professionnels animes par une mission a se reconnecter a leur objectif tout en relachant la pression de tout porter, tout reparer ou etre tout pour tout le monde."]
+            ["Des limites sans culpabilite", "Proteger votre energie tout en restant present", "Aidez les responsables EBRG et les employes a etablir des limites plus saines, gerer les attentes et preserver leur energie sans se sentir egoistes, indisponibles ou deconnectes de leur raison d'etre."],
+            ["Un objectif sans pression", "Soutenir l'engagement, le leadership et le service sans vous perdre", "Soutenez les responsables EBRG et les professionnels animes par une mission a se reconnecter a leur objectif tout en relachant la pression de tout porter, tout reparer ou etre tout pour tout le monde."]
           ]
         }
       ],
-      customSessionTitle: "Vous ne voyez pas exactement ce dont votre ERG, équipe ou organisation a besoin ?",
+      customSessionTitle: "Vous ne voyez pas exactement ce dont votre EBRG, équipe ou organisation a besoin ?",
       customSessionText: "Chaque uBuntu Power Hour Experience peut être personnalisée pour refléter votre audience, votre culture de travail, vos défis actuels et les résultats souhaités.",
       customSessionCta: "Personnalisons votre session",
       formatsLabel: "Formats",
@@ -385,7 +385,7 @@
       formatsIntro: "Les Power Hours sont conçues pour s'adapter à la façon dont votre organisation travaille déjà.",
       formats: [
         ["Lunch & Learn", "Une pause de midi qui recharge vraiment vos collaborateurs."],
-        ["Session d'engagement ERG", "Votre mois commémoratif ou événement de leadership, élevé."],
+        ["Session d'engagement EBRG", "Votre mois commémoratif ou événement de leadership, élevé."],
         ["Heure de développement du leadership", "Des outils pratiques que vos managers utilisent dès le lendemain matin."],
         ["Session de conférence", "La session dont les personnes parlent encore dans l'avion du retour."],
         ["Conversation de leadership pour femmes", "Un espace conçu pour les femmes qui naviguent la complexité du leadership."],
@@ -395,27 +395,27 @@
       audienceLabel: "Est-ce pour vous ?",
       audienceHeadline: "Créé pour celles et ceux qui construisent la culture.",
       audience: [
-        ["Responsables et co-responsables ERG", "Vous êtes un leader bénévole qui anime un ERG en plus d'un emploi à temps plein. Vous avez besoin d'une programmation facile à réserver, qui fonctionne et qui donne envie aux membres de revenir. Les Power Hours prennent en charge le contenu, la facilitation et l'énergie, pour que vous n'ayez pas à le faire."],
+        ["Responsables et co-responsables EBRG", "Vous êtes un leader bénévole qui anime un EBRG en plus d'un emploi à temps plein. Vous avez besoin d'une programmation facile à réserver, qui fonctionne et qui donne envie aux membres de revenir. Les Power Hours prennent en charge le contenu, la facilitation et l'énergie, pour que vous n'ayez pas à le faire."],
         ["CHROs et Chief People Officers", "Vous naviguez une main-d'oeuvre épuisée, chargée politiquement et en quête de connexion. Vous avez besoin d'une programmation solide: un langage universel, des résultats mesurables et une facilitation assez sophistiquée pour vos dirigeants. Les Power Hours produisent des résultats d'appartenance sans friction politique."],
         ["Directeurs L&D et développement des talents", "Vous avez besoin de plus qu'un événement ponctuel. Vous avez besoin d'expériences de développement qui renforcent les compétences, changent les comportements et se connectent à votre pipeline de leadership. Les Power Hours peuvent être déployées seules ou structurées en série annuelle de 6 à 12 sessions intégrée à votre curriculum de leadership."]
       ],
       testimonialLabel: "Ce que les personnes disent",
       testimonialHeadline: "La salle n'a plus jamais été la même.",
       testimonials: [
-        ["\"J'ai assisté à des centaines de sessions ERG. La Power Hour de Hermence a été la première où les personnes se sont vraiment parlé, et non parlé les unes aux autres. Nos membres ERG font encore référence à cette conversation trois mois plus tard.\"", "Marcus T. Reid, ERG Chair, Financial Services"],
+        ["\"J'ai assisté à des centaines de sessions EBRG. La Power Hour de Hermence a été la première où les personnes se sont vraiment parlé, et non parlé les unes aux autres. Nos membres EBRG font encore référence à cette conversation trois mois plus tard.\"", "Marcus T. Reid, EBRG Chair, Financial Services"],
         ["\"Nous avons invité Hermence pour notre session de leadership féminin et nous ne savions pas vraiment à quoi nous attendre. Ce qui s'est passé dans cette salle était extraordinaire. Elle a créé une sécurité psychologique en cinq minutes. Des personnes ont partagé des choses qu'elles n'avaient jamais dites à voix haute au travail. Notre sponsor exécutif a dit que c'était les 60 meilleures minutes investies dans nos collaborateurs cette année.\"", "Danielle Osei, Chief People Officer, Healthcare"],
         ["\"Nous dirigeons une équipe mondiale dans quatre pays et trois langues. Hermence a facilité en anglais et en français, avec fluidité, et a donné à chaque personne le sentiment que la session avait été conçue pour elle. Nous avons réservé trois sessions supplémentaires avant même la fin de la première.\"", "James Whitfield, VP Talent Development, Professional Services"],
         ["\"Le format Power Hour ne ressemble à rien d'autre sur le marché. Hermence ne parle pas à vos collaborateurs; elle les guide pour qu'ils se parlent entre eux. L'énergie, la sécurité, la profondeur de la conversation: ce n'est pas quelque chose que l'on fabrique. C'est quelque chose qu'elle apporte.\"", "Priya Nambiar, HR Business Partner, Technology"]
       ],
       investmentLabel: "Investissement",
       investmentHeadline: "Choisissez la Power Hour qui répond à votre moment",
-      investment2: "Pour les ERG, leaders et organisations prêts à transformer des conversations significatives en connexion plus forte, confiance plus profonde et impact réel au travail, trois options Power Hour sont disponibles:",
+      investment2: "Pour les EBRG, leaders et organisations prêts à transformer des conversations significatives en connexion plus forte, confiance plus profonde et impact réel au travail, trois options Power Hour sont disponibles:",
       prices: [
-        ["La Power Hour unique", "Une expérience facilitée de 60 minutes pour votre ERG, équipe de leadership ou organisation. Entièrement personnalisée selon votre contexte et vos objectifs.", "À partir de $5,000."],
+        ["La Power Hour unique", "Une expérience facilitée de 60 minutes pour votre EBRG, équipe de leadership ou organisation. Entièrement personnalisée selon votre contexte et vos objectifs.", "À partir de $5,000."],
         ["Le pack de 3 sessions", "Trois Power Hours conçues comme une série connectée, idéale pour les mois commémoratifs, cohortes de leadership ou développements trimestriels d'équipe.", "À partir de $13,500."],
-        ["Le retainer annuel ERG", "Six Power Hours sur votre année civile, plus des appels trimestriels de planification et des récapitulatifs de session à votre marque. La façon la plus impactante et la plus rentable de construire l'appartenance à grande échelle.", "À partir de $25,000."]
+        ["Le retainer annuel EBRG", "Six Power Hours sur votre année civile, plus des appels trimestriels de planification et des récapitulatifs de session à votre marque. La façon la plus impactante et la plus rentable de construire l'appartenance à grande échelle.", "À partir de $25,000."]
       ],
-      note: "Toutes les sessions sont disponibles en virtuel ou en présentiel. Des packages entreprise multi-ERG sont disponibles pour les organisations avec plusieurs groupes de ressources. Contactez-nous pour plus de détails.",
+      note: "Toutes les sessions sont disponibles en virtuel ou en présentiel. Des packages entreprise Multi-EBRG sont disponibles pour les organisations avec plusieurs groupes de ressources. Contactez-nous pour plus de détails.",
       fitCta: "Réserver un appel découverte pour discuter du bon format",
       aboutLabel: "Rencontrez votre facilitatrice",
       aboutHeadline: "Hermence Matsotsa",
@@ -424,7 +424,7 @@
       about2: "Elle n'a pas appris l'inclusion dans un programme de certification ou un cadre de conseil. Elle l'a apprise en vivant à travers les cultures, les langues et des expériences que la plupart des personnes ne lisent que dans des études de cas.",
       about3: "Avec plus de deux décennies d'expérience auprès de professionnels et de leaders performants à travers les cultures, les secteurs et les langues, Hermence crée des espaces humains où les personnes se sentent suffisamment en sécurité pour parler, diriger et résoudre ensemble de vrais défis du travail.",
       about4: "Hermence apporte la philosophie Ubuntu, \"je suis parce que nous sommes,\" non comme un concept emprunté mais comme un héritage vécu. C'est le prisme à travers lequel elle dirige, facilite et crée des espaces où les personnes se sentent suffisamment en sécurité pour être vraies.",
-      about5: "À travers la uBuntu Power Hour Experience, elle a aidé des responsables ERG, des équipes dirigeantes et des organisations de différents secteurs à créer les conversations qui changent la façon dont les personnes se présentent au travail et au-delà.",
+      about5: "À travers la uBuntu Power Hour Experience, elle a aidé des responsables EBRG, des équipes dirigeantes et des organisations de différents secteurs à créer les conversations qui changent la façon dont les personnes se présentent au travail et au-delà.",
       about6: "Elle facilite couramment en anglais, espagnol et français, ce qui fait d'elle l'une des rares facilitatrices au monde capables de servir de véritables équipes mondiales sans perdre profondeur, nuance ou connexion dans la traduction.",
       about7: "Quand la salle doit changer, Hermence est la personne à appeler.",
       aboutCta: "Planifier une conversation avec Hermence",
@@ -432,7 +432,7 @@
       final1: "Cela vaut une conversation de 30 minutes.",
       final2: "Sans pression. Sans présentation commerciale. Juste une conversation honnête sur la situation de votre équipe, ce dont vos collaborateurs ont besoin et si une Power Hour est le bon choix.",
       final3: "Disponible en anglais · espagnol · français",
-      final4: "Virtuel et présentiel · ERGs · Équipes de leadership · Organisations mondiales",
+      final4: "Virtuel et présentiel · EBRGs · Équipes de leadership · Organisations mondiales",
       finalCta: "Réserver votre appel découverte maintenant",
       footerTitle: "uBuntu Power Hour Experience",
       footerBy: "Facilitées par Hermence Matsotsa",
