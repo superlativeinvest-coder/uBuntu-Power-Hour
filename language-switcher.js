@@ -49,7 +49,7 @@
         ["Beyond Surface Conversations", "Create meaningful employee connection through belonging, psychological safety, and human-centered leadership."],
         ["Psychological Safety During Change", "Support leaders and employees through uncertainty, tension, trust gaps, and pressure with executive-friendly language."],
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
-        ["Creating a Workplace Where People Feel Safe to Speak", "Build trust, inclusive communication, listening behaviors, leadership tone-setting, and cultural humility."],
+        ["The Speak-Up Culture Shift™", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
         ["Leading and Collaborating Across Cultures and Distance", "Strengthen global team trust, cultural intelligence, communication across differences, and inclusive meetings."],
         ["The Cost of Holding It All Together", "A powerful conversation for women leaders and high achievers navigating perfectionism, pressure, and burnout."],
         ["The Courageous Conversation Code™", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
@@ -64,7 +64,7 @@
           cards: [
             ["The Courageous Conversation Code™", "Navigating the Conversations That Matter Most", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
             ["From Triggered to Intentional™", "Navigating Conflict with Positive Intelligence", "Explore how emotional triggers impact workplace communication and learn practical strategies for responding with greater intention, awareness, and control."],
-            ["Creating a Workplace Where People Feel Safe to Speak", "", "Build trust, inclusive communication, and leadership behaviors that encourage employees to share ideas, concerns, and perspectives openly."],
+            ["The Speak-Up Culture Shift™", "Creating Workplaces Where People Feel Safe to Contribute", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
             ["Resilience During Change", "Leading Through Uncertainty Without Losing Trust", "Support leaders and teams through uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience."]
           ]
         },
