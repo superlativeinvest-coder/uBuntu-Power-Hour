@@ -12,7 +12,7 @@
       navAbout: "About",
       navBook: "Book a Call",
       heroEyebrow: "uBuntu Power Hour Experience",
-      heroHeadline: "Your People Deserves More Than Another Meeting.",
+      heroHeadline: "Your People Deserve More Than Another Meeting.",
       heroSubhead: "The uBuntu Power Hour Experience turns your next Employee Business Resource Groups, (EBRGs), Employee Networks, and Workplace Community gathering into a space where people feel seen, heard, and re-engaged to lead, connect, and contribute in 60 minutes.",
       heroSupport: "Facilitated in English · Spanish · French for teams that think globally.",
       bookDiscovery: "Book a Discovery Call",
