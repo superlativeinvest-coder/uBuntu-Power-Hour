@@ -434,8 +434,8 @@ section,
   margin-bottom: 1rem;
 }
 
-.investment .section-heading {
-  max-width: 1120px;
+.investment .section-heading p {
+  text-wrap: balance;
 }
 
 .topic-grid {
