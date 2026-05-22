@@ -435,6 +435,7 @@ section,
 }
 
 .investment .section-heading p {
+  font-weight: 700;
   text-wrap: balance;
 }
 
