@@ -151,14 +151,14 @@
     },
     es: {
       title: "uBuntu Power Hour Experience",
-      description: "Facilitación interactiva de 60 minutos para EBRG, equipos de liderazgo y organizaciones globales. Facilitada en inglés, español y francés.",
+      description: "Facilitación interactiva de 60 minutos para EBRGs, redes de empleados, comunidades laborales, equipos de liderazgo y organizaciones globales. Facilitada en inglés, español y francés.",
       navPower: "Power Hours",
       navTopics: "Temas",
       navAbout: "Acerca de",
       navBook: "Reservar llamada",
       heroEyebrow: "uBuntu Power Hour Experience",
-      heroHeadline: "Tu EBRG merece más que otra reunión.",
-      heroSubhead: "La uBuntu Power Hour Experience convierte tu próxima reunión de EBRG en un espacio donde las personas se sienten vistas, escuchadas y renovadas para liderar en 60 minutos.",
+      heroHeadline: "Tu gente merece más que otra reunión.",
+      heroSubhead: "La uBuntu Power Hour Experience convierte tu próxima reunión de Grupos de Recursos Empresariales para Empleados, EBRGs, redes de empleados y comunidades laborales en un espacio donde las personas se sienten vistas, escuchadas y reenganchadas para liderar, conectar y contribuir en 60 minutos.",
       heroSupport: "Facilitado en inglés · español · francés para equipos que piensan globalmente.",
       bookDiscovery: "Reservar una llamada de descubrimiento",
       problemLabel: "¿Te suena familiar?",
@@ -190,16 +190,16 @@
       topicsHeadline: "Cada sesión. Diseñada para mover a las personas.",
       topicsSub: "Elige una. O deja que Hermence recomiende la opción adecuada para tu equipo.",
       topics: [
-        ["Liderar sin quemarse", "Mentalidad y bienestar para líderes de EBRG que cargan trabajo emocional, exceso de responsabilidad y fatiga voluntaria."],
-        ["Más allá de conversaciones superficiales", "Crear conexión significativa entre empleados mediante pertenencia, seguridad psicológica y liderazgo centrado en lo humano."],
+        ["Liderando en Vacío™", "Equipa a líderes de EBRG y personas de alto rendimiento con prácticas de fitness mental de Inteligencia Positiva para reconocer patrones de agotamiento, manejar el trabajo emocional y la sobre-responsabilidad, navegar la fatiga voluntaria y la presión laboral, y sostener la energía necesaria para liderar con claridad, propósito e impacto."],
+        ["Más Allá de la Superficie™", "Explora estrategias que llevan a los empleados más allá de la interacción cordial hacia conversaciones más significativas que fortalecen la confianza, la pertenencia y la conexión en el trabajo."],
         ["Seguridad psicológica durante el cambio", "Apoyar a líderes y empleados durante incertidumbre, tensión, brechas de confianza y presión con lenguaje apto para ejecutivos."],
         ["Tender puentes entre generaciones", "Reducir suposiciones y mejorar la colaboración entre estilos de comunicación, normas de retroalimentación y expectativas de liderazgo."],
-        ["Crear un lugar de trabajo donde la gente se sienta segura para hablar", "Construir confianza, comunicación inclusiva, escucha, tono de liderazgo y humildad cultural."],
-        ["Liderar y colaborar entre culturas y distancias", "Fortalecer la confianza en equipos globales, la inteligencia cultural, la comunicación entre diferencias y las reuniones inclusivas."],
-        ["El costo de sostenerlo todo", "Una conversación poderosa para mujeres líderes y personas de alto rendimiento que navegan perfeccionismo, presión y agotamiento."],
-        ["Conversaciones valientes", "Dejar de evitar las conversaciones que más importan. Aprender a tenerlas con habilidad y gracia."],
-        ["Resiliencia durante el cambio", "Guiar a tu equipo en la incertidumbre sin perder la confianza, la energía ni la conexión."],
-        ["Conexión y colaboración de equipo", "Reconstruir el tejido relacional que hace que los equipos realmente trabajen juntos."]
+        ["El Cambio hacia una Cultura de Voz™", "Construye la confianza, las prácticas de comunicación y los comportamientos de liderazgo que ayudan a los empleados a compartir ideas, plantear inquietudes, hacer preguntas y contribuir abiertamente."],
+        ["El Código de la Conexión Global™", "Fortalece la comunicación, la confianza, la conciencia cultural y la colaboración en equipos globales y remotos, zonas horarias, roles y perspectivas."],
+        ["El Peso que Cargamos™", "Explora el trabajo emocional oculto, la presión y la sobre-responsabilidad que muchos profesionales cargan, especialmente quienes deben liderar, apoyar, rendir y mantenerse compuestos."],
+        ["El Código de las Conversaciones Valientes™", "Fortalece la confianza, la claridad y las habilidades de comunicación necesarias para navegar conversaciones laborales difíciles con seguridad psicológica, respeto e intención."],
+        ["Estabilidad en el Cambio™", "Explora estrategias que ayudan a líderes y equipos a navegar la incertidumbre, la tensión laboral y el cambio organizacional mientras mantienen conexión, confianza y resiliencia emocional."],
+        ["La Ventaja Colaborativa UBUNTU™", "Reconstruye el tejido relacional que hace que los equipos realmente trabajen juntos."]
       ],
       sessionLabel: "Desglose de sesiones",
       sessionHeadline: "Sesiones Power Hour por area de enfoque",
@@ -207,28 +207,28 @@
         {
           title: "Liderazgo y comunicacion",
           cards: [
-            ["Conversaciones valientes", "", "Deja de evitar las conversaciones que mas importan y aprende a navegar discusiones dificiles con claridad, confianza y seguridad psicologica."],
+            ["El Código de las Conversaciones Valientes™", "Navegar las conversaciones que más importan", "Fortalece la confianza, la claridad y las habilidades de comunicación necesarias para navegar conversaciones laborales difíciles con seguridad psicológica, respeto e intención."],
             ["De la reaccion a la intencion™", "Navegar el conflicto con Inteligencia Positiva", "Explora como los detonantes emocionales impactan la comunicacion en el trabajo y aprende estrategias practicas para responder con mayor intencion, conciencia y control."],
-            ["Crear un lugar de trabajo donde la gente se sienta segura para hablar", "", "Construye confianza, comunicacion inclusiva y comportamientos de liderazgo que animen a los empleados a compartir ideas, preocupaciones y perspectivas abiertamente."],
-            ["Resiliencia durante el cambio", "Liderar en la incertidumbre sin perder la confianza", "Apoya a lideres y equipos durante la incertidumbre, la tension laboral y el cambio organizacional mientras mantienes conexion, confianza y resiliencia emocional."]
+            ["El Cambio hacia una Cultura de Voz™", "Crear lugares de trabajo donde las personas se sientan seguras para contribuir", "Construye la confianza, las prácticas de comunicación y los comportamientos de liderazgo que ayudan a los empleados a compartir ideas, plantear inquietudes, hacer preguntas y contribuir abiertamente."],
+            ["Estabilidad en el Cambio™", "Liderar el cambio con confianza, claridad y resiliencia", "Explora estrategias que ayudan a líderes y equipos a navegar la incertidumbre, la tensión laboral y el cambio organizacional mientras mantienen conexión, confianza y resiliencia emocional."]
           ]
         },
         {
           title: "Equipo y cultura laboral",
           cards: [
-            ["Mas alla de conversaciones superficiales", "Construir conexion real en el trabajo", "Crea conexion significativa entre empleados a traves de pertenencia, seguridad psicologica, empatia y comunicacion centrada en lo humano."],
-            ["Conexion y colaboracion de equipo", "Reconstruir el tejido relacional de los equipos", "Fortalece la colaboracion, la confianza y las relaciones laborales en equipos que navegan estres, desconexion y quiebres de comunicacion."],
-            ["Liderar y colaborar entre culturas y distancias", "", "Fortalece la comunicacion de equipos globales, la inteligencia cultural, la colaboracion a traves de diferencias y los entornos de reunion inclusivos."],
-            ["Generaciones diferentes. Mundos diferentes. Un solo equipo.™", "Tender puentes entre diferencias globales y generacionales en el trabajo", "Explora como la cultura, la generacion, la tecnologia y las experiencias vividas moldean la comunicacion, las expectativas de liderazgo, los estilos de retroalimentacion y la colaboracion laboral."]
+            ["Más Allá de la Superficie™", "Construir conexión real en el trabajo", "Explora estrategias que llevan a los empleados más allá de la interacción cordial hacia conversaciones más significativas que fortalecen la confianza, la pertenencia y la conexión en el trabajo."],
+            ["La Ventaja Colaborativa UBUNTU™", "Reconstruir el tejido relacional de los equipos", "Fortalece la colaboración, la confianza y las relaciones laborales en equipos que navegan estrés, desconexión y quiebres de comunicación."],
+            ["El Código de la Conexión Global™", "Liderar y colaborar entre culturas, distancia y diferencia", "Fortalece la comunicación, la confianza, la conciencia cultural y la colaboración en equipos globales y remotos, zonas horarias, roles y perspectivas."],
+            ["Muchos Mundos. Un Solo Lugar de Trabajo.™", "Tender puentes entre perspectivas globales y generacionales en el trabajo", "Explora cómo la cultura, la generación, la tecnología y las experiencias vividas moldean la comunicación, las expectativas de liderazgo, los estilos de retroalimentación y la colaboración laboral."]
           ]
         },
         {
           title: "Bienestar y liderazgo sostenible",
           cards: [
-            ["Liderar sin quemarse", "Mental fitness para lideres de EBRG y personas de alto rendimiento", "Apoya a lideres de EBRG y personas de alto rendimiento que cargan trabajo emocional, exceso de responsabilidad, fatiga voluntaria y presion laboral."],
-            ["El costo de sostenerlo todo", "", "Una conversacion poderosa para mujeres lideres y personas de alto rendimiento que navegan agotamiento, perfeccionismo, presion, trabajo emocional y el peso oculto de tener que sostenerlo todo."],
-            ["Limites sin culpa", "Proteger tu energia mientras sigues presente", "Ayuda a lideres de EBRG y empleados a establecer limites mas saludables, gestionar expectativas y sostener su energia sin sentirse egoistas, no disponibles o desconectados de su proposito."],
-            ["Proposito sin presion", "Sostener la defensa, el liderazgo y el servicio sin perderte a ti mismo", "Apoya a lideres de EBRG y profesionales impulsados por una mision a reconectar con su proposito mientras sueltan la presion de cargarlo todo, arreglarlo todo o ser todo para todos."]
+            ["Liderando en Vacío™", "Fitness mental para líderes de EBRG y personas de alto rendimiento", "Equipa a líderes de EBRG y personas de alto rendimiento con prácticas de fitness mental de Inteligencia Positiva para reconocer patrones de agotamiento, manejar el trabajo emocional y la sobre-responsabilidad, navegar la fatiga voluntaria y la presión laboral, y sostener la energía necesaria para liderar con claridad, propósito e impacto."],
+            ["El Peso que Cargamos™", "Trabajo emocional, agotamiento y liderazgo sostenible", "Explora el trabajo emocional oculto, la presión y la sobre-responsabilidad que muchos profesionales cargan, especialmente quienes deben liderar, apoyar, rendir y mantenerse compuestos."],
+            ["Propósito con Límites™", "Servir sin abandonarte a ti mismo", "Explora cómo los líderes de comunidades de empleados pueden seguir abogando, conectando y liderando mientras establecen límites y protegen la energía necesaria para sostener su impacto y bienestar sin culpa."],
+            ["Debajo de la Presión™", "Sostener la defensa, el liderazgo y el servicio sin perderte a ti mismo", "Apoya a líderes de EBRG y profesionales impulsados por una misión a reconectar con su propósito mientras sueltan la presión de cargarlo todo, arreglarlo todo o ser todo para todos."]
           ]
         }
       ],
@@ -264,7 +264,7 @@
       ],
       investmentLabel: "Inversión",
       investmentHeadline: "Elige la Power Hour que responde a tu momento",
-      investment2: "Para EBRGs, líderes y organizaciones listas para convertir conversaciones significativas en una conexión más fuerte, una confianza más profunda y un impacto real en el lugar de trabajo, hay tres opciones de Power Hour disponibles.",
+      investment2: "Para EBRGs, redes de empleados, líderes de comunidades laborales y organizaciones listas para convertir conversaciones significativas en una conexión más fuerte, una confianza más profunda y un impacto real en el lugar de trabajo, hay tres opciones de Power Hour disponibles.",
       prices: [
         ["La Power Hour individual", "Una experiencia facilitada de 60 minutos para tu EBRG, equipo de liderazgo u organización. Totalmente personalizada a tu contexto y objetivos.", "Desde $5,000."],
         ["El paquete de 3 sesiones", "Tres Power Hours diseñadas como una serie conectada, ideal para programación de meses conmemorativos, cohortes de liderazgo o desarrollo trimestral de equipos.", "Desde $13,500."],
@@ -296,14 +296,14 @@
     },
     fr: {
       title: "uBuntu Power Hour Experience",
-      description: "Facilitation interactive de 60 minutes pour EBRG, équipes de direction et organisations mondiales. Facilitée en anglais, espagnol et français.",
+      description: "Facilitation interactive de 60 minutes pour les EBRG, les réseaux d'employés, les communautés au travail, les équipes de leadership et les organisations mondiales. Facilitée en anglais, espagnol et français.",
       navPower: "Power Hours",
       navTopics: "Sujets",
       navAbout: "À propos",
       navBook: "Réserver un appel",
       heroEyebrow: "uBuntu Power Hour Experience",
-      heroHeadline: "Votre EBRG mérite plus qu'une réunion de plus.",
-      heroSubhead: "La uBuntu Power Hour Experience transforme votre prochaine rencontre EBRG en un espace où les personnes se sentent vues, entendues et réénergisées pour diriger en 60 minutes.",
+      heroHeadline: "Vos collaborateurs méritent plus qu'une réunion de plus.",
+      heroSubhead: "La uBuntu Power Hour Experience transforme votre prochaine rencontre de groupes de ressources d'affaires pour employés, EBRG, réseaux d'employés et communautés au travail en un espace où les personnes se sentent vues, entendues et réengagées à diriger, créer du lien et contribuer en 60 minutes.",
       heroSupport: "Facilité en anglais · espagnol · français pour les équipes qui pensent globalement.",
       bookDiscovery: "Réserver un appel découverte",
       problemLabel: "Cela vous parle ?",
@@ -335,16 +335,16 @@
       topicsHeadline: "Chaque session. Conçue pour faire bouger les personnes.",
       topicsSub: "Choisissez un sujet. Ou laissez Hermence recommander le bon choix pour votre équipe.",
       topics: [
-        ["Diriger sans s'épuiser", "Fitness mental pour responsables EBRG portant du travail émotionnel, une responsabilité excessive et de la fatigue bénévole."],
-        ["Au-delà des conversations de surface", "Créer une connexion significative entre employés grâce à l'appartenance, la sécurité psychologique et le leadership centré sur l'humain."],
+        ["Diriger à bout de forces™", "Équiper les responsables EBRG et les personnes très performantes de pratiques de fitness mental issues de l'Intelligence Positive pour reconnaître les schémas d'épuisement, gérer le travail émotionnel et la sur-responsabilité, traverser la fatigue bénévole et la pression au travail, et préserver l'énergie nécessaire pour diriger avec clarté, intention et impact."],
+        ["Au-delà de la surface™", "Explorer des stratégies qui amènent les employés au-delà des échanges polis vers des conversations plus significatives qui renforcent la confiance, l'appartenance et la connexion au travail."],
         ["Sécurité psychologique en période de changement", "Soutenir leaders et employés face à l'incertitude, aux tensions, aux ruptures de confiance et à la pression avec un langage adapté aux dirigeants."],
         ["Combler les différences générationnelles", "Réduire les suppositions et améliorer la collaboration entre styles de communication, normes de feedback et attentes de leadership."],
-        ["Créer un lieu de travail où les personnes se sentent libres de parler", "Construire la confiance, la communication inclusive, l'écoute, le ton du leadership et l'humilité culturelle."],
-        ["Diriger et collaborer à travers cultures et distances", "Renforcer la confiance des équipes mondiales, l'intelligence culturelle, la communication à travers les différences et les réunions inclusives."],
-        ["Le coût de tout porter", "Une conversation puissante pour les femmes leaders et les personnes très performantes qui naviguent perfectionnisme, pression et épuisement."],
-        ["Conversations courageuses", "Arrêter d'éviter les conversations qui comptent le plus. Apprendre à les avoir avec compétence et grâce."],
-        ["Résilience pendant le changement", "Guider votre équipe dans l'incertitude sans perdre la confiance, l'énergie ni le lien."],
-        ["Connexion et collaboration d'équipe", "Reconstruire le tissu relationnel qui permet aux équipes de vraiment travailler ensemble."]
+        ["Le virage vers une culture de prise de parole™", "Construire la confiance, les pratiques de communication et les comportements de leadership qui aident les employés à partager des idées, soulever des préoccupations, poser des questions et contribuer ouvertement."],
+        ["Le code de la connexion globale™", "Renforcer la communication, la confiance, la conscience culturelle et la collaboration au sein d'équipes mondiales et à distance, entre fuseaux horaires, rôles et perspectives."],
+        ["Le poids que nous portons™", "Explorer le travail émotionnel caché, la pression et la sur-responsabilité que de nombreux professionnels portent, surtout ceux qui doivent diriger, soutenir, performer et rester composés."],
+        ["Le code des conversations courageuses™", "Renforcer la confiance, la clarté et les compétences de communication nécessaires pour mener des conversations difficiles au travail avec sécurité psychologique, respect et intention."],
+        ["Stable dans le changement™", "Explorer des stratégies qui aident leaders et équipes à traverser l'incertitude, les tensions au travail et le changement organisationnel tout en maintenant connexion, confiance et résilience émotionnelle."],
+        ["L'avantage collaboratif UBUNTU™", "Reconstruire le tissu relationnel qui permet aux équipes de vraiment travailler ensemble."]
       ],
       sessionLabel: "Detail des sessions",
       sessionHeadline: "Sessions Power Hour par axe de travail",
@@ -352,28 +352,28 @@
         {
           title: "Leadership et communication",
           cards: [
-            ["Conversations courageuses", "", "Cessez d'eviter les conversations qui comptent le plus et apprenez a mener des discussions difficiles avec clarte, confiance et securite psychologique."],
+            ["Le code des conversations courageuses™", "Naviguer les conversations qui comptent le plus", "Renforcez la confiance, la clarté et les compétences de communication nécessaires pour mener des conversations difficiles au travail avec sécurité psychologique, respect et intention."],
             ["De la reaction a l'intention™", "Naviguer le conflit avec l'Intelligence Positive", "Explorez comment les declencheurs emotionnels influencent la communication au travail et apprenez des strategies pratiques pour repondre avec plus d'intention, de conscience et de controle."],
-            ["Creer un lieu de travail ou les personnes se sentent libres de parler", "", "Renforcez la confiance, la communication inclusive et les comportements de leadership qui encouragent les employes a partager ouvertement idees, inquietudes et perspectives."],
-            ["Resilience pendant le changement", "Diriger dans l'incertitude sans perdre la confiance", "Soutenez les leaders et les equipes face a l'incertitude, aux tensions au travail et au changement organisationnel tout en maintenant le lien, la confiance et la resilience emotionnelle."]
+            ["Le virage vers une culture de prise de parole™", "Créer des lieux de travail où les personnes se sentent libres de contribuer", "Construisez la confiance, les pratiques de communication et les comportements de leadership qui aident les employés à partager des idées, soulever des préoccupations, poser des questions et contribuer ouvertement."],
+            ["Stable dans le changement™", "Diriger le changement avec confiance, clarté et résilience", "Explorez des stratégies qui aident leaders et équipes à traverser l'incertitude, les tensions au travail et le changement organisationnel tout en maintenant connexion, confiance et résilience émotionnelle."]
           ]
         },
         {
           title: "Equipe et culture de travail",
           cards: [
-            ["Au-dela des conversations de surface", "Construire une vraie connexion au travail", "Creez une connexion significative entre employes grace a l'appartenance, la securite psychologique, l'empathie et la communication centree sur l'humain."],
-            ["Connexion et collaboration d'equipe", "Reconstruire le tissu relationnel des equipes", "Renforcez la collaboration, la confiance et les relations de travail dans des equipes qui traversent stress, deconnexion et ruptures de communication."],
-            ["Diriger et collaborer a travers cultures et distances", "", "Renforcez la communication des equipes mondiales, l'intelligence culturelle, la collaboration a travers les differences et les environnements de reunion inclusifs."],
-            ["Generations differentes. Mondes differents. Une seule equipe.™", "Combler les differences mondiales et generationnelles au travail", "Explorez comment la culture, la generation, la technologie et les experiences vecues faconnent la communication, les attentes de leadership, les styles de feedback et la collaboration au travail."]
+            ["Au-delà de la surface™", "Construire une vraie connexion au travail", "Explorez des stratégies qui amènent les employés au-delà des échanges polis vers des conversations plus significatives qui renforcent la confiance, l'appartenance et la connexion au travail."],
+            ["L'avantage collaboratif UBUNTU™", "Reconstruire le tissu relationnel des équipes", "Renforcez la collaboration, la confiance et les relations de travail dans des équipes qui traversent stress, déconnexion et ruptures de communication."],
+            ["Le code de la connexion globale™", "Diriger et collaborer à travers les cultures, la distance et la différence", "Renforcez la communication, la confiance, la conscience culturelle et la collaboration au sein d'équipes mondiales et à distance, entre fuseaux horaires, rôles et perspectives."],
+            ["De nombreux mondes. Un seul lieu de travail.™", "Relier les perspectives mondiales et générationnelles au travail", "Explorez comment la culture, la génération, la technologie et les expériences vécues façonnent la communication, les attentes de leadership, les styles de feedback et la collaboration au travail."]
           ]
         },
         {
           title: "Bien-etre et leadership durable",
           cards: [
-            ["Diriger sans s'epuiser", "Fitness mental pour responsables EBRG et personnes tres performantes", "Soutenez les responsables EBRG et les personnes tres performantes qui portent du travail emotionnel, une responsabilite excessive, de la fatigue benevole et de la pression au travail."],
-            ["Le cout de tout porter", "", "Une conversation puissante pour les femmes leaders et les personnes tres performantes qui naviguent epuisement, perfectionnisme, pression, travail emotionnel et le poids cache de devoir tout porter."],
-            ["Des limites sans culpabilite", "Proteger votre energie tout en restant present", "Aidez les responsables EBRG et les employes a etablir des limites plus saines, gerer les attentes et preserver leur energie sans se sentir egoistes, indisponibles ou deconnectes de leur raison d'etre."],
-            ["Un objectif sans pression", "Soutenir l'engagement, le leadership et le service sans vous perdre", "Soutenez les responsables EBRG et les professionnels animes par une mission a se reconnecter a leur objectif tout en relachant la pression de tout porter, tout reparer ou etre tout pour tout le monde."]
+            ["Diriger à bout de forces™", "Fitness mental pour responsables EBRG et personnes très performantes", "Équipez les responsables EBRG et les personnes très performantes de pratiques de fitness mental issues de l'Intelligence Positive pour reconnaître les schémas d'épuisement, gérer le travail émotionnel et la sur-responsabilité, traverser la fatigue bénévole et la pression au travail, et préserver l'énergie nécessaire pour diriger avec clarté, intention et impact."],
+            ["Le poids que nous portons™", "Travail émotionnel, épuisement et leadership durable", "Explorez le travail émotionnel caché, la pression et la sur-responsabilité que de nombreux professionnels portent, surtout ceux qui doivent diriger, soutenir, performer et rester composés."],
+            ["Un objectif avec des limites™", "Servir sans s'abandonner soi-même", "Explorez comment les leaders de communautés d'employés peuvent continuer à défendre, connecter et diriger tout en posant des limites et en protégeant l'énergie nécessaire pour soutenir leur impact et leur bien-être sans culpabilité."],
+            ["Sous la pression™", "Soutenir l'engagement, le leadership et le service sans vous perdre", "Soutenez les responsables EBRG et les professionnels animés par une mission à se reconnecter à leur objectif tout en relâchant la pression de tout porter, tout réparer ou être tout pour tout le monde."]
           ]
         }
       ],
@@ -409,7 +409,7 @@
       ],
       investmentLabel: "Investissement",
       investmentHeadline: "Choisissez la Power Hour qui répond à votre moment",
-      investment2: "Pour les EBRG, leaders et organisations prêts à transformer des conversations significatives en connexion plus forte, confiance plus profonde et impact réel au travail, trois options Power Hour sont disponibles:",
+      investment2: "Pour les EBRG, les réseaux d'employés, les leaders de communautés au travail et les organisations prêts à transformer des conversations significatives en connexion plus forte, confiance plus profonde et impact réel au travail, trois options Power Hour sont disponibles:",
       prices: [
         ["La Power Hour unique", "Une expérience facilitée de 60 minutes pour votre EBRG, équipe de leadership ou organisation. Entièrement personnalisée selon votre contexte et vos objectifs.", "À partir de $5,000."],
         ["Le pack de 3 sessions", "Trois Power Hours conçues comme une série connectée, idéale pour les mois commémoratifs, cohortes de leadership ou développements trimestriels d'équipe.", "À partir de $13,500."],
