@@ -46,7 +46,7 @@
       topicsSub: "Choose one. Or let Hermence recommend the right fit for your team.",
       topics: [
         ["Leading Without Burning Out", "Mental fitness for EBRG leaders carrying emotional labor, over-responsibility, and volunteer fatigue."],
-        ["Beyond Surface Conversations", "Create meaningful employee connection through belonging, psychological safety, and human-centered leadership."],
+        ["Beyond the Surface™", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
         ["Psychological Safety During Change", "Support leaders and employees through uncertainty, tension, trust gaps, and pressure with executive-friendly language."],
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
         ["The Speak-Up Culture Shift™", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
@@ -71,7 +71,7 @@
         {
           title: "Team & Workplace Culture",
           cards: [
-            ["Beyond Surface Conversations", "Building Real Connection in the Workplace", "Create meaningful employee connection through belonging, psychological safety, empathy, and human-centered communication."],
+            ["Beyond the Surface™", "Building Real Connection in the Workplace", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
             ["Team Connection & Collaboration", "Rebuilding the Relational Fabric of Teams", "Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns."],
             ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."],
             ["Different Generations. Different Worlds. One Team.™", "Bridging Global and Generational Differences at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."]
