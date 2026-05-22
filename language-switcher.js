@@ -52,7 +52,7 @@
         ["Creating a Workplace Where People Feel Safe to Speak", "Build trust, inclusive communication, listening behaviors, leadership tone-setting, and cultural humility."],
         ["Leading and Collaborating Across Cultures and Distance", "Strengthen global team trust, cultural intelligence, communication across differences, and inclusive meetings."],
         ["The Cost of Holding It All Together", "A powerful conversation for women leaders and high achievers navigating perfectionism, pressure, and burnout."],
-        ["Courageous Conversations", "Stop avoiding the conversations that matter most. Learn to have them with skill and grace."],
+        ["The Courageous Conversation Code™", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
         ["Resilience During Change", "Lead your team through uncertainty without losing trust, energy, or each other."],
         ["Team Connection & Collaboration", "Rebuild the relational fabric that makes teams actually work together."]
       ],
@@ -62,7 +62,7 @@
         {
           title: "Leadership & Communication",
           cards: [
-            ["Courageous Conversations", "", "Stop avoiding the conversations that matter most and learn how to navigate difficult discussions with clarity, confidence, and psychological safety."],
+            ["The Courageous Conversation Code™", "Navigating the Conversations That Matter Most", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
             ["From Triggered to Intentional™", "Navigating Conflict with Positive Intelligence", "Explore how emotional triggers impact workplace communication and learn practical strategies for responding with greater intention, awareness, and control."],
             ["Creating a Workplace Where People Feel Safe to Speak", "", "Build trust, inclusive communication, and leadership behaviors that encourage employees to share ideas, concerns, and perspectives openly."],
             ["Resilience During Change", "Leading Through Uncertainty Without Losing Trust", "Support leaders and teams through uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience."]
