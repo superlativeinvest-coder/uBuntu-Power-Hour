@@ -119,7 +119,7 @@
       ],
       investmentLabel: "Investment",
       investmentHeadline: "Choose the Power Hour That Meets Your Moment",
-      investment2: "For EBRGs, leaders, and organizations ready to turn meaningful conversations into stronger connection, deeper trust, and real workplace impact, three Power Hour options are available.",
+      investment2: "For EBRGs, employee networks, workplace communities leaders, and organizations ready to turn meaningful conversations into stronger connection, deeper trust, and real workplace impact, three Power Hour options are available.",
       prices: [
         ["The Single Power Hour", "One 60-minute facilitated experience for your EBRG, leadership team, or organization. Fully customized to your context and goals.", "Starting at $5,000."],
         ["The 3-Pack Bundle", "Three Power Hours designed as a connected series, ideal for heritage month programming, leadership cohorts, or quarterly team development.", "Starting at $13,500."],
