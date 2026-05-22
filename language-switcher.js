@@ -45,7 +45,7 @@
       topicsHeadline: "Every Session. Designed to Move People.",
       topicsSub: "Choose one. Or let Hermence recommend the right fit for your team.",
       topics: [
-        ["Leading Without Burning Out", "Mental fitness for EBRG leaders carrying emotional labor, over-responsibility, and volunteer fatigue."],
+        ["Leading on Empty™", "Equip EBRG leaders and high performers with Positive Intelligence mental fitness practices to recognize burnout patterns, manage emotional labor and over-responsibility, navigate volunteer fatigue and workplace pressure, and sustain the energy needed to lead with clarity, purpose, and impact."],
         ["Beyond the Surface™", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
         ["Psychological Safety During Change", "Support leaders and employees through uncertainty, tension, trust gaps, and pressure with executive-friendly language."],
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
@@ -53,8 +53,8 @@
         ["The Global Connection Code™", "Strengthen communication, trust, cultural awareness, and collaboration across global and remote teams, time zones, roles, and perspectives."],
         ["The Weight We Carry™", "Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed."],
         ["The Courageous Conversation Code™", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
-        ["Resilience During Change", "Lead your team through uncertainty without losing trust, energy, or each other."],
-        ["Team Connection & Collaboration", "Rebuild the relational fabric that makes teams actually work together."]
+        ["Steady in the Shift™", "Explore strategies that help leaders and teams navigate uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience."],
+        ["The UBUNTU Collaboration Advantage™", "Rebuild the relational fabric that makes teams actually work together."]
       ],
       sessionLabel: "Session Breakdown",
       sessionHeadline: "Every Session. Designed to Move People.",
@@ -65,14 +65,14 @@
             ["The Courageous Conversation Code™", "Navigating the Conversations That Matter Most", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
             ["From Triggered to Intentional™", "Navigating Conflict with Positive Intelligence", "Explore how emotional triggers impact workplace communication and learn practical strategies for responding with greater intention, awareness, and control."],
             ["The Speak-Up Culture Shift™", "Creating Workplaces Where People Feel Safe to Contribute", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
-            ["Resilience During Change", "Leading Through Uncertainty Without Losing Trust", "Support leaders and teams through uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience."]
+            ["Steady in the Shift™", "Leading Through Change With Trust, Clarity, and Resilience", "Explore strategies that help leaders and teams navigate uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience."]
           ]
         },
         {
           title: "Team & Workplace Culture",
           cards: [
             ["Beyond the Surface™", "Building Real Connection in the Workplace", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
-            ["Team Connection & Collaboration", "Rebuilding the Relational Fabric of Teams", "Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns."],
+            ["The UBUNTU Collaboration Advantage™", "Rebuilding the Relational Fabric of Teams", "Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns."],
             ["The Global Connection Code™", "Leading and Collaborating Across Cultures, Distance, and Difference", "Strengthen communication, trust, cultural awareness, and collaboration across global and remote teams, time zones, roles, and perspectives."],
             ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."]
           ]
@@ -80,10 +80,10 @@
         {
           title: "Wellness & Sustainable Leadership",
           cards: [
-            ["Leading Without Burning Out", "Mental Fitness for EBRG Leaders and High Performers", "Support EBRG leaders and high achievers carrying emotional labor, over-responsibility, volunteer fatigue, and workplace pressure."],
+            ["Leading on Empty™", "Mental Fitness for EBRG Leaders and High Performers", "Equip EBRG leaders and high performers with Positive Intelligence mental fitness practices to recognize burnout patterns, manage emotional labor and over-responsibility, navigate volunteer fatigue and workplace pressure, and sustain the energy needed to lead with clarity, purpose, and impact."],
             ["The Weight We Carry™", "Emotional Labor, Burnout, and Sustainable Leadership", "Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed."],
-            ["Boundaries Without Guilt", "Protecting Your Energy While Still Showing Up", "Help EBRG leaders and employees set healthier boundaries, manage expectations, and sustain their energy without feeling selfish, unavailable, or disconnected from their purpose."],
-            ["Purpose Without Pressure", "Sustaining Advocacy, Leadership, and Service Without Losing Yourself", "Support EBRG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone."]
+            ["Purpose With Boundaries™", "Serving Without Self-Abandonment", "Explore how employee community leaders can continue advocating, connecting, and leading while setting boundaries and protecting the energy needed to sustain their impact and wellbeing without guilt."],
+            ["Beneath the Pressure™", "Sustaining Advocacy, Leadership, and Service Without Losing Yourself", "Support EBRG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone."]
           ]
         }
       ],
