@@ -50,7 +50,7 @@
         ["Psychological Safety During Change", "Support leaders and employees through uncertainty, tension, trust gaps, and pressure with executive-friendly language."],
         ["Bridging Generational Differences", "Reduce assumptions and improve collaboration across communication styles, feedback norms, and leadership expectations."],
         ["The Speak-Up Culture Shift™", "Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly."],
-        ["Many Worlds. One Workplace.™", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."],
+        ["The Global Connection Code™", "Strengthen communication, trust, cultural awareness, and collaboration across global and remote teams, time zones, roles, and perspectives."],
         ["The Weight We Carry™", "Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed."],
         ["The Courageous Conversation Code™", "Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention."],
         ["Resilience During Change", "Lead your team through uncertainty without losing trust, energy, or each other."],
@@ -73,7 +73,7 @@
           cards: [
             ["Beyond the Surface™", "Building Real Connection in the Workplace", "Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection."],
             ["Team Connection & Collaboration", "Rebuilding the Relational Fabric of Teams", "Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns."],
-            ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."],
+            ["The Global Connection Code™", "Leading and Collaborating Across Cultures, Distance, and Difference", "Strengthen communication, trust, cultural awareness, and collaboration across global and remote teams, time zones, roles, and perspectives."],
             ["Many Worlds. One Workplace.™", "Bridging Global and Generational Perspectives at Work", "Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration."]
           ]
         },
