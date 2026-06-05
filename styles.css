@@ -211,6 +211,21 @@ section,
   line-height: 1.45;
 }
 
+html[lang="fr"] .hero-content h1 {
+  max-width: 760px;
+  font-size: clamp(2.05rem, 4.55vw, 4rem);
+  line-height: 1.02;
+}
+
+html[lang="fr"] .hero-content {
+  width: min(760px, calc(100% - 2rem));
+  max-width: 760px;
+}
+
+html[lang="fr"] .hero-subhead {
+  max-width: 690px;
+}
+
 .hero-support {
   margin-top: 1.2rem;
   color: rgba(255, 255, 255, 0.88);
@@ -908,6 +923,16 @@ figcaption {
   .hero-content h1 {
     max-width: none;
     font-size: clamp(2rem, 9vw, 3.25rem);
+  }
+
+  html[lang="fr"] .hero-content {
+    width: min(680px, calc(100% - 2rem));
+    max-width: none;
+  }
+
+  html[lang="fr"] .hero-content h1 {
+    max-width: none;
+    font-size: clamp(1.9rem, 8.2vw, 3rem);
   }
 
   .hero-subhead {
