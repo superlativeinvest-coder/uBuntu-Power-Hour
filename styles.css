@@ -228,6 +228,10 @@ html[lang="fr"] .hero-subhead {
   line-height: 1.38;
 }
 
+html[lang="fr"] .hero-support {
+  margin-top: 0.85rem;
+}
+
 .hero-support {
   margin-top: 1.2rem;
   color: rgba(255, 255, 255, 0.88);
