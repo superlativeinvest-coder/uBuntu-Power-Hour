@@ -59,6 +59,7 @@
       ],
       sessionLabel: "Session Breakdown",
       sessionHeadline: "Every Session. Designed to Move People.",
+      sessionFilters: ["All", "Leadership & Communication", "Team & Workplace Culture", "Wellness & Sustainable Leadership"],
       sessionGroups: [
         {
           title: "Leadership & Communication",
@@ -207,6 +208,7 @@
       ],
       sessionLabel: "Desglose de sesiones",
       sessionHeadline: "Sesiones Power Hour por area de enfoque",
+      sessionFilters: ["Todo", "Liderazgo y comunicación", "Equipo y cultura laboral", "Bienestar y liderazgo sostenible"],
       sessionGroups: [
         {
           title: "Liderazgo y comunicacion",
@@ -355,6 +357,7 @@
       ],
       sessionLabel: "Detail des sessions",
       sessionHeadline: "Sessions Power Hour par axe de travail",
+      sessionFilters: ["Tout", "Leadership et communication", "Equipe et culture de travail", "Bien-être et leadership durable"],
       sessionGroups: [
         {
           title: "Leadership et communication",
@@ -502,6 +505,8 @@
     conference_breakout: { key: "single_power_hour", priceIndex: 0 },
     ongoing_series: { key: "annual_ebrg_retainer", priceIndex: 2 }
   };
+
+  let activeSessionFilter = "all";
 
   const quizCopy = {
     en: {
@@ -682,6 +687,40 @@
   const setHTML = (selector, value) => {
     const element = document.querySelector(selector);
     if (element) element.innerHTML = value;
+  };
+
+  const applySessionFilter = (filter) => {
+    activeSessionFilter = filter || "all";
+    document.querySelectorAll("[data-session-filter]").forEach((button) => {
+      const isActive = button.dataset.sessionFilter === activeSessionFilter;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-selected", String(isActive));
+      button.setAttribute("tabindex", isActive ? "0" : "-1");
+    });
+    document.querySelectorAll("[data-session-category]").forEach((group) => {
+      group.classList.toggle("is-hidden", activeSessionFilter !== "all" && group.dataset.sessionCategory !== activeSessionFilter);
+    });
+  };
+
+  const handleSessionFilterClick = (event) => {
+    const button = event.target.closest("[data-session-filter]");
+    if (!button) return;
+    applySessionFilter(button.dataset.sessionFilter);
+  };
+
+  const handleSessionFilterKeydown = (event) => {
+    if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+    const tabs = [...document.querySelectorAll("[data-session-filter]")];
+    const currentIndex = tabs.indexOf(event.target);
+    if (currentIndex === -1) return;
+    event.preventDefault();
+    let nextIndex = currentIndex;
+    if (event.key === "ArrowRight") nextIndex = (currentIndex + 1) % tabs.length;
+    if (event.key === "ArrowLeft") nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+    if (event.key === "Home") nextIndex = 0;
+    if (event.key === "End") nextIndex = tabs.length - 1;
+    tabs[nextIndex].focus();
+    applySessionFilter(tabs[nextIndex].dataset.sessionFilter);
   };
 
   const getQuizSteps = () => {
@@ -961,6 +1000,9 @@
 
     setText(".session-breakdown .section-label", t.sessionLabel);
     setText(".session-breakdown .section-heading h2", t.sessionHeadline);
+    document.querySelectorAll("[data-session-filter]").forEach((button, index) => {
+      if (t.sessionFilters && t.sessionFilters[index]) button.textContent = t.sessionFilters[index];
+    });
     document.querySelectorAll(".session-group").forEach((group, groupIndex) => {
       const groupContent = t.sessionGroups && t.sessionGroups[groupIndex];
       if (!groupContent) return;
@@ -970,12 +1012,11 @@
         if (!cardContent) return;
         const title = card.querySelector("h4");
         const subtitle = card.querySelector(".session-subtitle");
-        const body = subtitle ? subtitle.nextElementSibling : card.querySelector("p");
         title.textContent = cardContent[0];
         if (subtitle) subtitle.textContent = cardContent[1];
-        if (body) body.textContent = cardContent[2];
       });
     });
+    applySessionFilter(activeSessionFilter);
     setText(".custom-session-callout h3", t.customSessionTitle);
     setText(".custom-session-callout p", t.customSessionText);
     setText(".custom-session-callout .quiz-launch", t.quizLaunch);
@@ -1054,6 +1095,10 @@
     button.addEventListener("click", () => setLanguage(button.dataset.lang));
   });
 
+  document.querySelectorAll("[data-session-filter]").forEach((button) => {
+    button.addEventListener("click", handleSessionFilterClick);
+    button.addEventListener("keydown", handleSessionFilterKeydown);
+  });
   document.addEventListener("click", handleQuizClick);
   document.addEventListener("change", handleQuizChange);
 

@@ -489,11 +489,48 @@ html[lang="fr"] .hero-support {
 }
 
 .session-breakdown .section-heading {
-  margin-bottom: clamp(1.75rem, 4vw, 3rem);
+  margin-bottom: clamp(1.25rem, 3vw, 2rem);
+}
+
+.session-filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
+}
+
+.session-filter-tabs button {
+  min-height: 44px;
+  padding: 0.7rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  color: var(--black);
+  background: rgba(255, 255, 255, 0.72);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1.15;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.session-filter-tabs button:hover,
+.session-filter-tabs button:focus-visible,
+.session-filter-tabs button.active {
+  color: var(--paper);
+  background: var(--navy);
+  border-color: var(--navy);
+  outline: none;
+  box-shadow: 0 10px 24px rgba(0, 0, 128, 0.18);
 }
 
 .session-group + .session-group {
   margin-top: clamp(2rem, 5vw, 3.5rem);
+}
+
+.session-group.is-hidden {
+  display: none;
 }
 
 .session-group > h3 {
@@ -504,16 +541,54 @@ html[lang="fr"] .hero-support {
 
 .session-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .session-card {
-  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   padding: clamp(1.2rem, 3vw, 1.6rem);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  scroll-margin-top: 112px;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.session-card:hover,
+.session-card:focus-within {
+  border-color: var(--navy);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.14);
+  transform: translateY(-3px);
+}
+
+.session-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 1rem;
+  color: var(--orange-deep);
+  background: rgba(244, 131, 9, 0.1);
+  border: 1px solid rgba(244, 131, 9, 0.24);
+  border-radius: 50%;
+}
+
+.session-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .session-card h4 {
@@ -1036,7 +1111,7 @@ figcaption {
   }
 
   .session-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .results-grid,
@@ -1164,6 +1239,7 @@ figcaption {
   }
 
   .topic-grid,
+  .session-grid,
   .results-grid,
   .power-hour-grid,
   .pillar-list,

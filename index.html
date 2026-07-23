@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260605-french-support-nudge">
+  <link rel="stylesheet" href="styles.css?v=20260723-session-catalog">
 </head>
 <body>
   <header class="site-header">
@@ -102,80 +102,86 @@
           <div class="section-heading">
             <h2>Every Session. Designed to Move People.</h2>
           </div>
-          <div class="session-group">
+          <div class="session-filter-tabs" role="tablist" aria-label="Power Hour session categories">
+            <button type="button" role="tab" aria-selected="true" class="active" data-session-filter="all">All</button>
+            <button type="button" role="tab" aria-selected="false" data-session-filter="leadership">Leadership & Communication</button>
+            <button type="button" role="tab" aria-selected="false" data-session-filter="culture">Team & Workplace Culture</button>
+            <button type="button" role="tab" aria-selected="false" data-session-filter="wellness">Wellness & Sustainable Leadership</button>
+          </div>
+          <div class="session-group" data-session-category="leadership">
             <h3>Leadership & Communication</h3>
-            <div class="session-grid">
-              <article class="session-card">
+            <ul class="session-grid" aria-label="Leadership and Communication Power Hour sessions">
+              <li class="session-card" id="courageous-conversation-code">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z"></path></svg></span>
                 <h4>The Courageous Conversation Code™</h4>
                 <p class="session-subtitle">Navigating the Conversations That Matter Most</p>
-                <p>Strengthen the confidence, clarity, and communication skills needed to navigate difficult workplace conversations with psychological safety, respect, and intention.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="from-triggered-to-intentional">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="m16 8-2.8 6.2L7 17l2.8-6.2L16 8Z"></path></svg></span>
                 <h4>From Triggered to Intentional™</h4>
                 <p class="session-subtitle">Navigating Conflict with Positive Intelligence</p>
-                <p>Explore how emotional triggers impact workplace communication and learn practical strategies for responding with greater intention, awareness, and control.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="speak-up-culture-shift">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 13v-2Z"></path><path d="M7 14v5a2 2 0 0 0 2 2h1"></path></svg></span>
                 <h4>The Speak-Up Culture Shift™</h4>
                 <p class="session-subtitle">Creating Workplaces Where People Feel Safe to Contribute</p>
-                <p>Build the trust, communication practices, and leadership behaviors that help employees share ideas, raise concerns, ask questions, and contribute openly.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="steady-in-the-shift">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18"></path><path d="M5 21h14"></path><path d="M8 7a4 4 0 0 0 8 0"></path><path d="M4 11h16"></path></svg></span>
                 <h4>Steady in the Shift™</h4>
                 <p class="session-subtitle">Leading Through Change With Trust, Clarity, and Resilience</p>
-                <p>Explore strategies that help leaders and teams navigate uncertainty, workplace tension, and organizational change while maintaining connection, trust, and emotional resilience.</p>
-              </article>
-            </div>
+              </li>
+            </ul>
           </div>
-          <div class="session-group">
+          <div class="session-group" data-session-category="culture">
             <h3>Team & Workplace Culture</h3>
-            <div class="session-grid">
-              <article class="session-card">
+            <ul class="session-grid" aria-label="Team and Workplace Culture Power Hour sessions">
+              <li class="session-card" id="beyond-the-surface">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Z"></path><path d="m3 12 9 5 9-5"></path><path d="m3 17 9 5 9-5"></path></svg></span>
                 <h4>Beyond the Surface™</h4>
                 <p class="session-subtitle">Building Real Connection in the Workplace</p>
-                <p>Explore strategies that move employees beyond polite interaction into more meaningful conversations that strengthen trust, belonging, and workplace connection.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="ubuntu-collaboration-advantage">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>
                 <h4>The UBUNTU Collaboration Advantage™</h4>
                 <p class="session-subtitle">Rebuilding the Relational Fabric of Teams</p>
-                <p>Strengthen collaboration, trust, and workplace relationships in teams navigating stress, disconnection, and communication breakdowns.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="global-connection-code">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 0 20"></path><path d="M12 2a15.3 15.3 0 0 0 0 20"></path></svg></span>
                 <h4>The Global Connection Code™</h4>
                 <p class="session-subtitle">Leading and Collaborating Across Cultures, Distance, and Difference</p>
-                <p>Strengthen communication, trust, cultural awareness, and collaboration across global and remote teams, time zones, roles, and perspectives.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="many-worlds-one-workplace">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19.4 15a2 2 0 1 0-2.8 2.8l1.4 1.4a2 2 0 0 0 2.8-2.8L19.4 15Z"></path><path d="M9 3H5a2 2 0 0 0-2 2v4h4a2 2 0 1 0 0-4H5"></path><path d="M14 3h5a2 2 0 0 1 2 2v5h-5a2 2 0 1 1 0-4h3"></path><path d="M3 14v5a2 2 0 0 0 2 2h5v-5a2 2 0 1 0-4 0v3"></path></svg></span>
                 <h4>Many Worlds. One Workplace.™</h4>
                 <p class="session-subtitle">Bridging Global and Generational Perspectives at Work</p>
-                <p>Explore how culture, generation, technology, and lived experiences shape communication, leadership expectations, feedback styles, and workplace collaboration.</p>
-              </article>
-            </div>
+              </li>
+            </ul>
           </div>
-          <div class="session-group">
+          <div class="session-group" data-session-category="wellness">
             <h3>Wellness & Sustainable Leadership</h3>
-            <div class="session-grid">
-              <article class="session-card">
+            <ul class="session-grid" aria-label="Wellness and Sustainable Leadership Power Hour sessions">
+              <li class="session-card" id="leading-on-empty">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="18" height="10" rx="2"></rect><path d="M22 11v2"></path><path d="M6 11h4"></path></svg></span>
                 <h4>Leading on Empty™</h4>
                 <p class="session-subtitle">Mental Fitness for EBRG Leaders and High Performers</p>
-                <p>Equip EBRG leaders and high performers with Positive Intelligence mental fitness practices to recognize burnout patterns, manage emotional labor and over-responsibility, navigate volunteer fatigue and workplace pressure, and sustain the energy needed to lead with clarity, purpose, and impact.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="weight-we-carry">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 20 7-16 4 9 2-5 5 12H3Z"></path></svg></span>
                 <h4>The Weight We Carry™</h4>
                 <p class="session-subtitle">Emotional Labor, Burnout, and Sustainable Leadership</p>
-                <p>Explore the hidden emotional labor, pressure, and over-responsibility many professionals carry, especially those expected to lead, support, perform, and remain composed.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="purpose-with-boundaries">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3v8Z"></path><path d="m9 12 2 2 4-5"></path></svg></span>
                 <h4>Purpose With Boundaries™</h4>
                 <p class="session-subtitle">Serving Without Self-Abandonment</p>
-                <p>Explore how employee community leaders can continue advocating, connecting, and leading while setting boundaries and protecting the energy needed to sustain their impact and wellbeing without guilt.</p>
-              </article>
-              <article class="session-card">
+              </li>
+              <li class="session-card" id="beneath-the-pressure">
+                <span class="session-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 14v-4"></path><path d="M4.9 19.1a10 10 0 1 1 14.2 0"></path><path d="M8 20h8"></path><path d="m15 9-3 3"></path></svg></span>
                 <h4>Beneath the Pressure™</h4>
                 <p class="session-subtitle">Sustaining Advocacy, Leadership, and Service Without Losing Yourself</p>
-                <p>Support EBRG leaders and mission-driven professionals in reconnecting to purpose while releasing the pressure to carry everything, fix everything, or be everything for everyone.</p>
-              </article>
-            </div>
+              </li>
+            </ul>
           </div>
           <div class="custom-session-callout" id="find-your-fit">
             <h3>Don’t see exactly what your EBRG, team, or organization needs?</h3>
@@ -337,6 +343,6 @@
       </div>
     </div>
   </footer>
-  <script src="language-switcher.js?v=20260723-fit-quiz"></script>
+  <script src="language-switcher.js?v=20260723-session-catalog"></script>
 </body>
 </html>
