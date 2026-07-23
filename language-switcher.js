@@ -10,6 +10,7 @@
       navPower: "Power Hours",
       navTopics: "Topics",
       navAbout: "About",
+      navFind: "Find Your Fit",
       navBook: "Book a Call",
       heroEyebrow: "uBuntu Power Hour Experience",
       heroHeadline: "Your People Deserve More Than Another Meeting.",
@@ -90,6 +91,8 @@
       customSessionTitle: "Don’t see exactly what your EBRG, team, or organization needs?",
       customSessionText: "Every uBuntu Power Hour Experience can be customized to reflect your audience, workplace culture, current challenges, and desired outcomes.",
       customSessionCta: "Let’s Customize Your Session",
+      quizLaunch: "Take the 60-Second Quiz",
+      pricingQuizPrompt: "Not sure which tier fits? Take the 60-second quiz →",
       formatsLabel: "Formats",
       formatsHeadline: "One Hour. Endless Possibilities.",
       formatsIntro: "Power Hours are designed to fit the way your organization already works.",
@@ -155,6 +158,7 @@
       navPower: "Power Hours",
       navTopics: "Temas",
       navAbout: "Acerca de",
+      navFind: "Encuentra tu opción",
       navBook: "Reservar llamada",
       heroEyebrow: "uBuntu Power Hour Experience",
       heroHeadline: "Tu gente merece más que otra reunión.",
@@ -235,6 +239,8 @@
       customSessionTitle: "¿No ves exactamente lo que necesita tu EBRG, equipo u organización?",
       customSessionText: "Cada uBuntu Power Hour Experience puede personalizarse para reflejar tu audiencia, cultura laboral, desafíos actuales y resultados deseados.",
       customSessionCta: "Personalicemos tu sesión",
+      quizLaunch: "Haz el quiz de 60 segundos",
+      pricingQuizPrompt: "¿No sabes qué opción encaja? Haz el quiz de 60 segundos →",
       formatsLabel: "Formatos",
       formatsHeadline: "Una hora. Posibilidades infinitas.",
       formatsIntro: "Las Power Hours están diseñadas para encajar con la forma en que tu organización ya trabaja.",
@@ -300,6 +306,7 @@
       navPower: "Power Hours",
       navTopics: "Sujets",
       navAbout: "À propos",
+      navFind: "Trouvez le bon format",
       navBook: "Réserver un appel",
       heroEyebrow: "uBuntu Power Hour Experience",
       heroHeadline: "Vos équipes méritent plus qu’une réunion de plus.",
@@ -380,6 +387,8 @@
       customSessionTitle: "Vous ne voyez pas exactement ce dont votre EBRG, équipe ou organisation a besoin ?",
       customSessionText: "Chaque uBuntu Power Hour Experience peut être personnalisée pour refléter votre audience, votre culture de travail, vos défis actuels et les résultats souhaités.",
       customSessionCta: "Personnalisons votre session",
+      quizLaunch: "Faire le quiz de 60 secondes",
+      pricingQuizPrompt: "Vous ne savez pas quel forfait convient ? Faites le quiz de 60 secondes →",
       formatsLabel: "Formats",
       formatsHeadline: "Une heure. Des possibilités infinies.",
       formatsIntro: "Les Power Hours sont conçues pour s'adapter à la façon dont votre organisation travaille déjà.",
@@ -441,6 +450,230 @@
     }
   };
 
+  let currentLanguage = "en";
+  let quizStarted = false;
+  let lastQuizResultSignature = "";
+
+  const quizState = {
+    isOpen: false,
+    stepIndex: 0,
+    answers: {}
+  };
+
+  const topicMap = {
+    courageous_conversation_code: [0, 0],
+    triggered_to_intentional: [0, 1],
+    speak_up_culture_shift: [0, 2],
+    steady_in_the_shift: [0, 3],
+    beyond_the_surface: [1, 0],
+    ubuntu_collaboration_advantage: [1, 1],
+    global_connection_code: [1, 2],
+    many_worlds_one_workplace: [1, 3],
+    leading_on_empty: [2, 0],
+    weight_we_carry: [2, 1],
+    purpose_with_boundaries: [2, 2],
+    beneath_the_pressure: [2, 3]
+  };
+
+  const topicsByCategory = {
+    leadership_communication: [
+      "courageous_conversation_code",
+      "triggered_to_intentional",
+      "speak_up_culture_shift",
+      "steady_in_the_shift"
+    ],
+    team_culture: [
+      "beyond_the_surface",
+      "ubuntu_collaboration_advantage",
+      "global_connection_code",
+      "many_worlds_one_workplace"
+    ],
+    wellness: [
+      "leading_on_empty",
+      "weight_we_carry",
+      "purpose_with_boundaries",
+      "beneath_the_pressure"
+    ]
+  };
+
+  const packageMap = {
+    heritage_event: { key: "3_pack_bundle", priceIndex: 1 },
+    leadership_offsite: { key: "single_power_hour", priceIndex: 0 },
+    conference_breakout: { key: "single_power_hour", priceIndex: 0 },
+    ongoing_series: { key: "annual_ebrg_retainer", priceIndex: 2 }
+  };
+
+  const quizCopy = {
+    en: {
+      progress: "Step {current} of {total}",
+      back: "Back",
+      next: "Next",
+      skip: "Skip for now",
+      resultLabel: "Your recommended Power Hour",
+      packageLabel: "Suggested package",
+      pricePrefix: "Starting at",
+      bookingCta: "Book Your Discovery Call",
+      fallbackCta: "Let’s Customize Your Session",
+      retake: "Retake Quiz",
+      note: "Your quiz result will open with your booking link. If it does not appear on the booking form, mention this result during your call.",
+      unsureTitle: "Every Power Hour is fully customized.",
+      unsureBody: "Let’s build the right session together based on your people, your workplace culture, and the conversation your team needs most right now.",
+      questions: {
+        role: {
+          legend: "What best describes your role?",
+          options: [
+            ["ebrg_chair", "EBRG Chair or Co-Chair", "You are shaping employee community programming while balancing your day job."],
+            ["chro", "CHRO or Chief People Officer", "You need trusted programming that supports culture, retention, and leadership."],
+            ["ld_director", "L&D or Talent Development Director", "You are building experiences that connect to learning, behavior, and growth."],
+            ["other", "Something else", "You are exploring a stronger conversation experience for your organization."]
+          ]
+        },
+        challenge: {
+          legend: "What is the main challenge you want to address?",
+          options: [
+            ["leadership_communication", "People are quiet or avoiding hard conversations", "Your team needs more trust, clarity, and communication skill."],
+            ["team_culture", "People feel disconnected, siloed, or strained by change", "Your group needs stronger connection and collaboration."],
+            ["wellness", "People are burned out or running on empty", "Your leaders and high performers need sustainable energy and boundaries."],
+            ["unsure", "I am not sure yet", "You want Hermence to help identify the best fit."]
+          ]
+        },
+        topic: {
+          legend: "Which session feels closest to what your team needs?"
+        },
+        occasion: {
+          legend: "What occasion are you planning for?",
+          options: [
+            ["heritage_event", "Heritage month or EBRG event", "A connected series can create deeper momentum."],
+            ["leadership_offsite", "Leadership development or offsite", "A focused Power Hour can meet the moment."],
+            ["conference_breakout", "Conference breakout", "A highly interactive session people remember."],
+            ["ongoing_series", "Ongoing series", "A year-round rhythm for culture-building at scale."]
+          ]
+        },
+        language: {
+          legend: "Any language needs for this session?",
+          options: [
+            ["english", "English only", "Facilitation in English."],
+            ["spanish", "Spanish", "Facilitation can include Spanish."],
+            ["french", "French", "Facilitation can include French."],
+            ["multiple", "Multiple languages", "Helpful for global or multilingual teams."]
+          ]
+        }
+      }
+    },
+    fr: {
+      progress: "Étape {current} sur {total}",
+      back: "Retour",
+      next: "Suivant",
+      skip: "Passer pour l’instant",
+      resultLabel: "Votre Power Hour recommandée",
+      packageLabel: "Forfait suggéré",
+      pricePrefix: "À partir de",
+      bookingCta: "Réserver votre appel découverte",
+      fallbackCta: "Personnalisons votre session",
+      retake: "Recommencer le quiz",
+      note: "Votre résultat s’ouvrira avec le lien de réservation. S’il n’apparaît pas dans le formulaire, mentionnez ce résultat pendant votre appel.",
+      unsureTitle: "Chaque Power Hour est entièrement personnalisée.",
+      unsureBody: "Construisons ensemble la bonne session selon vos collaborateurs, votre culture de travail et la conversation dont votre équipe a le plus besoin maintenant.",
+      questions: {
+        role: {
+          legend: "Quel rôle vous décrit le mieux ?",
+          options: [
+            ["ebrg_chair", "Responsable ou co-responsable EBRG", "Vous construisez la programmation de votre communauté d’employés en plus de votre rôle principal."],
+            ["chro", "CHRO ou Chief People Officer", "Vous avez besoin d’une programmation fiable qui soutient culture, rétention et leadership."],
+            ["ld_director", "Directeur L&D ou développement des talents", "Vous construisez des expériences reliées à l’apprentissage, au comportement et à la croissance."],
+            ["other", "Autre", "Vous explorez une expérience de conversation plus forte pour votre organisation."]
+          ]
+        },
+        challenge: {
+          legend: "Quel défi principal voulez-vous adresser ?",
+          options: [
+            ["leadership_communication", "Les personnes se taisent ou évitent les conversations difficiles", "Votre équipe a besoin de plus de confiance, de clarté et de compétences de communication."],
+            ["team_culture", "Les personnes se sentent déconnectées, en silo ou fragilisées par le changement", "Votre groupe a besoin de renforcer la connexion et la collaboration."],
+            ["wellness", "Les personnes sont épuisées ou à bout d’énergie", "Vos leaders et hauts performeurs ont besoin d’énergie durable et de limites saines."],
+            ["unsure", "Je ne suis pas encore sûr", "Vous souhaitez que Hermence vous aide à identifier le bon format."]
+          ]
+        },
+        topic: {
+          legend: "Quelle session semble la plus proche du besoin de votre équipe ?"
+        },
+        occasion: {
+          legend: "Pour quelle occasion planifiez-vous ?",
+          options: [
+            ["heritage_event", "Mois commémoratif ou événement EBRG", "Une série connectée peut créer plus d’élan."],
+            ["leadership_offsite", "Développement du leadership ou offsite", "Une Power Hour ciblée peut répondre au moment."],
+            ["conference_breakout", "Session de conférence", "Une session interactive dont les personnes se souviennent."],
+            ["ongoing_series", "Série continue", "Un rythme annuel pour construire la culture à grande échelle."]
+          ]
+        },
+        language: {
+          legend: "Avez-vous des besoins linguistiques ?",
+          options: [
+            ["english", "Anglais seulement", "Facilitation en anglais."],
+            ["spanish", "Espagnol", "La facilitation peut inclure l’espagnol."],
+            ["french", "Français", "La facilitation peut inclure le français."],
+            ["multiple", "Plusieurs langues", "Utile pour les équipes mondiales ou multilingues."]
+          ]
+        }
+      }
+    },
+    es: {
+      progress: "Paso {current} de {total}",
+      back: "Atrás",
+      next: "Siguiente",
+      skip: "Omitir por ahora",
+      resultLabel: "Tu Power Hour recomendada",
+      packageLabel: "Paquete sugerido",
+      pricePrefix: "Desde",
+      bookingCta: "Reservar tu llamada de descubrimiento",
+      fallbackCta: "Personalicemos tu sesión",
+      retake: "Repetir quiz",
+      note: "Tu resultado se abrirá con el enlace de reserva. Si no aparece en el formulario, menciona este resultado durante tu llamada.",
+      unsureTitle: "Cada Power Hour es totalmente personalizada.",
+      unsureBody: "Construyamos la sesión adecuada según tu gente, tu cultura laboral y la conversación que tu equipo más necesita ahora.",
+      questions: {
+        role: {
+          legend: "¿Qué describe mejor tu rol?",
+          options: [
+            ["ebrg_chair", "Presidente o copresidente de EBRG", "Estás diseñando programación para una comunidad de empleados además de tu trabajo principal."],
+            ["chro", "CHRO o Chief People Officer", "Necesitas programación confiable que apoye cultura, retención y liderazgo."],
+            ["ld_director", "Director de L&D o desarrollo de talento", "Estás creando experiencias conectadas con aprendizaje, conducta y crecimiento."],
+            ["other", "Otra opción", "Estás explorando una experiencia de conversación más sólida para tu organización."]
+          ]
+        },
+        challenge: {
+          legend: "¿Cuál es el principal reto que quieres abordar?",
+          options: [
+            ["leadership_communication", "La gente guarda silencio o evita conversaciones difíciles", "Tu equipo necesita más confianza, claridad y habilidad de comunicación."],
+            ["team_culture", "La gente está desconectada, aislada o afectada por el cambio", "Tu grupo necesita más conexión y colaboración."],
+            ["wellness", "La gente está agotada o sin energía", "Tus líderes y personas de alto rendimiento necesitan energía sostenible y límites saludables."],
+            ["unsure", "Aún no estoy seguro", "Quieres que Hermence te ayude a identificar la mejor opción."]
+          ]
+        },
+        topic: {
+          legend: "¿Qué sesión se acerca más a lo que necesita tu equipo?"
+        },
+        occasion: {
+          legend: "¿Para qué ocasión estás planificando?",
+          options: [
+            ["heritage_event", "Mes conmemorativo o evento de EBRG", "Una serie conectada puede crear más impulso."],
+            ["leadership_offsite", "Desarrollo de liderazgo u offsite", "Una Power Hour enfocada puede responder al momento."],
+            ["conference_breakout", "Sesión de conferencia", "Una sesión interactiva que las personas recuerdan."],
+            ["ongoing_series", "Serie continua", "Un ritmo anual para construir cultura a escala."]
+          ]
+        },
+        language: {
+          legend: "¿Hay necesidades de idioma para esta sesión?",
+          options: [
+            ["english", "Solo inglés", "Facilitación en inglés."],
+            ["spanish", "Español", "La facilitación puede incluir español."],
+            ["french", "Francés", "La facilitación puede incluir francés."],
+            ["multiple", "Varios idiomas", "Útil para equipos globales o multilingües."]
+          ]
+        }
+      }
+    }
+  };
+
   const setText = (selector, value) => {
     const element = document.querySelector(selector);
     if (element) element.textContent = value;
@@ -451,8 +684,243 @@
     if (element) element.innerHTML = value;
   };
 
+  const getQuizSteps = () => {
+    const steps = ["role", "challenge"];
+    if (quizState.answers.challenge && quizState.answers.challenge !== "unsure") {
+      steps.push("topic");
+    }
+    steps.push("occasion", "language");
+    return steps;
+  };
+
+  const getPackageSuggestion = () => {
+    return packageMap[quizState.answers.occasion] || packageMap.leadership_offsite;
+  };
+
+  const getTopicContent = (lang, topicId) => {
+    const topicLocation = topicMap[topicId];
+    const t = translations[lang] || translations.en;
+    if (!topicLocation || !t.sessionGroups) return null;
+    const group = t.sessionGroups[topicLocation[0]];
+    return group && group.cards ? group.cards[topicLocation[1]] : null;
+  };
+
+  const buildBookingUrl = () => {
+    const params = new URLSearchParams();
+    const packageSuggestion = getPackageSuggestion();
+    const t = translations[currentLanguage] || translations.en;
+    const packageName = t.prices[packageSuggestion.priceIndex][0];
+    params.set("role", quizState.answers.role || "");
+    params.set("topic", quizState.answers.challenge === "unsure" ? "custom_fit" : (quizState.answers.topic || ""));
+    params.set("occasion", quizState.answers.occasion || "");
+    params.set("language", quizState.answers.language || "");
+    params.set("package", packageSuggestion.key);
+    params.set("package_name", packageName);
+    return `${simplyMeet}?${params.toString()}`;
+  };
+
+  const emitQuizEvent = (name, detail = {}) => {
+    window.dispatchEvent(new CustomEvent(name, { detail }));
+  };
+
+  const openQuiz = ({ scroll = false } = {}) => {
+    const panel = document.querySelector("[data-quiz-panel]");
+    if (!panel) return;
+    quizState.isOpen = true;
+    panel.hidden = false;
+    if (!quizStarted) {
+      quizStarted = true;
+      emitQuizEvent("quiz_start");
+    }
+    renderQuiz();
+    if (scroll) {
+      document.querySelector("#find-your-fit")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  const resetQuiz = () => {
+    quizState.stepIndex = 0;
+    quizState.answers = {};
+    renderQuiz();
+  };
+
+  const getCurrentStep = () => {
+    const steps = getQuizSteps();
+    if (quizState.stepIndex >= steps.length) return "result";
+    return steps[quizState.stepIndex];
+  };
+
+  const renderOption = (stepId, option, selectedValue) => {
+    const [value, label, description] = option;
+    const checked = selectedValue === value ? " checked" : "";
+    return `
+      <label class="quiz-option">
+        <input type="radio" name="quiz-${stepId}" value="${value}"${checked}>
+        <span>
+          <strong>${label}</strong>
+          <span>${description}</span>
+        </span>
+      </label>
+    `;
+  };
+
+  const renderQuizStep = (stepId) => {
+    const copy = quizCopy[currentLanguage] || quizCopy.en;
+    const question = copy.questions[stepId];
+    const selectedValue = quizState.answers[stepId] || "";
+    const options = stepId === "topic"
+      ? (topicsByCategory[quizState.answers.challenge] || []).map((topicId) => {
+        const content = getTopicContent(currentLanguage, topicId) || getTopicContent("en", topicId);
+        return [topicId, content ? content[0] : topicId, content ? content[1] : ""];
+      })
+      : question.options;
+
+    const isFirst = quizState.stepIndex === 0;
+    const canSkip = stepId === "language";
+    return `
+      <fieldset class="quiz-fieldset">
+        <legend>${question.legend}</legend>
+        <div class="quiz-options">
+          ${options.map((option) => renderOption(stepId, option, selectedValue)).join("")}
+        </div>
+      </fieldset>
+      <div class="quiz-actions">
+        <button class="button quiz-back" type="button" data-quiz-back${isFirst ? " disabled" : ""}>${copy.back}</button>
+        <button class="button button-primary" type="button" data-quiz-next${selectedValue || canSkip ? "" : " disabled"}>${copy.next}</button>
+        ${canSkip ? `<button class="button quiz-retake" type="button" data-quiz-skip>${copy.skip}</button>` : ""}
+      </div>
+    `;
+  };
+
+  const renderQuizResult = () => {
+    const copy = quizCopy[currentLanguage] || quizCopy.en;
+    const t = translations[currentLanguage] || translations.en;
+    const packageSuggestion = getPackageSuggestion();
+    const packageContent = t.prices[packageSuggestion.priceIndex];
+    const isUnsure = quizState.answers.challenge === "unsure";
+    const topicContent = isUnsure ? null : getTopicContent(currentLanguage, quizState.answers.topic);
+    const result = {
+      role: quizState.answers.role || "",
+      topic: isUnsure ? "custom_fit" : (quizState.answers.topic || ""),
+      occasion: quizState.answers.occasion || "",
+      language: quizState.answers.language || "",
+      package: packageSuggestion.key,
+      packageName: packageContent[0],
+      bookingUrl: buildBookingUrl()
+    };
+    const resultSignature = JSON.stringify(result);
+    window.localStorage.setItem("ubuntuPowerHourQuizResult", resultSignature);
+    if (resultSignature !== lastQuizResultSignature) {
+      lastQuizResultSignature = resultSignature;
+      console.info("uBuntu Power Hour quiz result", result);
+      emitQuizEvent("quiz_complete", result);
+    }
+
+    return `
+      <div class="quiz-result">
+        <h4>${copy.resultLabel}</h4>
+        <div class="quiz-result-summary">
+          <div class="quiz-result-card">
+            <strong>${isUnsure ? copy.unsureTitle : topicContent[0]}</strong>
+            <p>${isUnsure ? copy.unsureBody : topicContent[1]}</p>
+          </div>
+          <div class="quiz-result-card">
+            <strong>${copy.packageLabel}: ${packageContent[0]}</strong>
+            <p>${copy.pricePrefix} ${packageContent[2].replace(/^Starting at |^À partir de |^Desde /, "")}</p>
+          </div>
+        </div>
+        <p class="quiz-result-note">${copy.note}</p>
+        <div class="quiz-result-actions">
+          <a class="button button-primary" href="${result.bookingUrl}" data-quiz-book>${copy.bookingCta}</a>
+          <a class="button quiz-back" href="${simplyMeet}">${copy.fallbackCta}</a>
+          <button class="button quiz-retake" type="button" data-quiz-retake>${copy.retake}</button>
+        </div>
+      </div>
+    `;
+  };
+
+  const renderQuiz = () => {
+    const panel = document.querySelector("[data-quiz-panel]");
+    const body = document.querySelector("[data-quiz-body]");
+    const progress = document.querySelector("[data-quiz-progress]");
+    if (!panel || !body || !progress || panel.hidden) return;
+
+    const copy = quizCopy[currentLanguage] || quizCopy.en;
+    const steps = getQuizSteps();
+    const stepId = getCurrentStep();
+    if (stepId === "result") {
+      progress.textContent = "";
+      body.innerHTML = renderQuizResult();
+      return;
+    }
+
+    progress.textContent = copy.progress
+      .replace("{current}", String(quizState.stepIndex + 1))
+      .replace("{total}", String(steps.length));
+    body.innerHTML = renderQuizStep(stepId);
+  };
+
+  const advanceQuiz = () => {
+    const steps = getQuizSteps();
+    const stepId = steps[quizState.stepIndex];
+    if (stepId !== "language" && !quizState.answers[stepId]) return;
+    quizState.stepIndex += 1;
+    renderQuiz();
+  };
+
+  const goBackQuiz = () => {
+    if (quizState.stepIndex > 0) {
+      quizState.stepIndex -= 1;
+      renderQuiz();
+    }
+  };
+
+  const handleQuizChange = (event) => {
+    const input = event.target.closest(".quiz-option input");
+    if (!input) return;
+    const stepId = getCurrentStep();
+    quizState.answers[stepId] = input.value;
+    if (stepId === "challenge") {
+      delete quizState.answers.topic;
+    }
+    renderQuiz();
+  };
+
+  const handleQuizClick = (event) => {
+    if (event.target.closest("[data-quiz-open]")) {
+      event.preventDefault();
+      openQuiz({ scroll: true });
+      return;
+    }
+    if (event.target.closest("[data-quiz-next]")) {
+      advanceQuiz();
+      return;
+    }
+    if (event.target.closest("[data-quiz-back]")) {
+      goBackQuiz();
+      return;
+    }
+    if (event.target.closest("[data-quiz-skip]")) {
+      delete quizState.answers.language;
+      advanceQuiz();
+      return;
+    }
+    if (event.target.closest("[data-quiz-retake]")) {
+      resetQuiz();
+      return;
+    }
+    const bookingLink = event.target.closest("[data-quiz-book]");
+    if (bookingLink) {
+      emitQuizEvent("quiz_booking_click", {
+        url: bookingLink.href,
+        answers: { ...quizState.answers }
+      });
+    }
+  };
+
   const setLanguage = (lang) => {
     const t = translations[lang] || translations.en;
+    currentLanguage = translations[lang] ? lang : "en";
     document.documentElement.lang = lang === "en" ? "en-US" : lang;
     document.title = t.title;
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -461,7 +929,8 @@
     setText(".site-header nav a:nth-child(1)", t.navPower);
     setText(".site-header nav a:nth-child(2)", t.navTopics);
     setText(".site-header nav a:nth-child(3)", t.navAbout);
-    setText(".site-header nav a:nth-child(4)", t.navBook);
+    setText(".site-header nav a:nth-child(4)", t.navFind);
+    setText(".site-header nav a:nth-child(5)", t.navBook);
     setText(".hero h1", t.heroHeadline);
     setText(".hero-subhead", t.heroSubhead);
     setText(".hero-support", t.heroSupport);
@@ -509,7 +978,7 @@
     });
     setText(".custom-session-callout h3", t.customSessionTitle);
     setText(".custom-session-callout p", t.customSessionText);
-    setText(".custom-session-callout .button", t.customSessionCta);
+    setText(".custom-session-callout .quiz-launch", t.quizLaunch);
 
     setText(".formats .section-label", t.formatsLabel);
     setText(".formats h2", t.formatsHeadline);
@@ -549,6 +1018,7 @@
     });
     setText(".investment .note", t.note);
     setText(".investment .button", t.fitCta);
+    setText(".pricing-fit-prompt a", t.pricingQuizPrompt);
 
     setText(".about .section-label", t.aboutLabel);
     setText(".about h2", t.aboutHeadline);
@@ -576,12 +1046,16 @@
       button.classList.toggle("active", isActive);
       button.setAttribute("aria-pressed", String(isActive));
     });
+    renderQuiz();
     window.localStorage.setItem("preferredLanguage", lang);
   };
 
   document.querySelectorAll(".language-switcher button").forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.dataset.lang));
   });
+
+  document.addEventListener("click", handleQuizClick);
+  document.addEventListener("change", handleQuizChange);
 
   setLanguage(window.localStorage.getItem("preferredLanguage") || "en");
 })();
