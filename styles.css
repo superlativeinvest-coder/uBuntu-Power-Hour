@@ -11,6 +11,7 @@
   --line: rgba(17, 17, 17, 0.12);
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.16);
   --radius: 8px;
+  --sticky-offset: 112px;
 }
 
 * {
@@ -19,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--sticky-offset);
 }
 
 body {
@@ -73,7 +75,7 @@ p + p {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,6 +85,13 @@ p + p {
   background: rgba(255, 255, 255, 0.94);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(16px);
+  transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.site-header.is-scrolled {
+  background: rgba(255, 255, 255, 0.98);
+  border-bottom-color: rgba(17, 17, 17, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 .brand {
@@ -131,6 +140,11 @@ p + p {
   padding: 0.25rem;
   border: 1px solid var(--line);
   background: var(--paper);
+}
+
+main section[id],
+.custom-session-callout[id] {
+  scroll-margin-top: var(--sticky-offset);
 }
 
 .language-switcher button {
@@ -1126,16 +1140,30 @@ figcaption {
 }
 
 @media (max-width: 820px) {
+  :root {
+    --sticky-offset: 148px;
+  }
+
   .site-header {
-    position: static;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 1rem;
+    position: sticky;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.65rem 1rem;
+    min-height: auto;
+    padding: 0.55rem 1rem;
   }
 
   .site-header nav {
+    order: 3;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1rem;
+  }
+
+  .language-switcher {
+    margin-left: auto;
   }
 
   .hero {
@@ -1203,6 +1231,10 @@ figcaption {
 }
 
 @media (max-width: 560px) {
+  :root {
+    --sticky-offset: 142px;
+  }
+
   body {
     font-size: 15px;
   }
@@ -1217,7 +1249,7 @@ figcaption {
   }
 
   .nav-cta {
-    width: 100%;
+    width: auto;
     text-align: center;
   }
 

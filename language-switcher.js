@@ -1,12 +1,12 @@
 (function () {
-  const simplyMeet = "https://app.simplymeet.me/hermenceubuntuworkforce";
+  const simplyMeet = "https://app.simplymeet.me/hermenceubuntuworkforce/30min";
   const linkedin = "https://www.linkedin.com/in/hermencematsotsa-transformationalleadershipstrategist/";
   const email = "hermence@ubuntuworkforce.com";
 
   const translations = {
     en: {
-      title: "uBuntu Power Hour Experience",
-      description: "Interactive 60-minute Power Hour facilitation for EBRGs, leadership teams, and global organizations. Facilitated in English, Spanish, and French.",
+      title: "uBuntu Power Hour Experience | ERG & EBRG Facilitator for Corporate Teams",
+      description: "Interactive 60-minute Power Hour facilitation for ERGs, EBRGs, leadership teams, and global organizations. Book a trilingual employee resource group facilitator for your next event.",
       navPower: "Power Hours",
       navTopics: "Topics",
       navAbout: "About",
@@ -14,7 +14,7 @@
       navBook: "Book a Call",
       heroEyebrow: "uBuntu Power Hour Experience",
       heroHeadline: "Your People Deserve More Than Another Meeting.",
-      heroSubhead: "The uBuntu Power Hour Experience turns your next Employee Business Resource Groups, (EBRGs), Employee Networks, and Workplace Community gathering into a space where people feel seen, heard, and re-engaged to lead, connect, and contribute in 60 minutes.",
+      heroSubhead: "The uBuntu Power Hour Experience turns your next Employee Resource Group (ERG), Employee Business Resource Group (EBRG), Employee Network, or Workplace Community gathering into a space where people feel seen, heard, and re-engaged to lead, connect, and contribute in 60 minutes.",
       heroSupport: "Facilitated in English · Spanish · French for teams that think globally.",
       bookDiscovery: "Book a Discovery Call",
       problemLabel: "Sound Familiar?",
@@ -1101,6 +1101,14 @@
   });
   document.addEventListener("click", handleQuizClick);
   document.addEventListener("change", handleQuizChange);
+
+  const siteHeader = document.querySelector(".site-header");
+  const updateHeaderScrollState = () => {
+    if (!siteHeader) return;
+    siteHeader.classList.toggle("is-scrolled", window.scrollY > 0);
+  };
+  updateHeaderScrollState();
+  window.addEventListener("scroll", updateHeaderScrollState, { passive: true });
 
   setLanguage(window.localStorage.getItem("preferredLanguage") || "en");
 })();
